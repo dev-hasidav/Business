@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack 
+  xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+  xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" 
+  xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" 
+  xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+  note="Import adres" version="2.0" application="StwTest" ico="12345678" id="ad004">
+  <dat:dataPackItem version="2.0" id="AD001">
+    <adb:addressbook version="2.0">
+      <adb:actionType>
+        <adb:update>
+          <ftr:filter>
+            <ftr:ico>12345678</ftr:ico>
+          </ftr:filter>
+        </adb:update>
+      </adb:actionType>
+      <adb:addressbookHeader>
+        <adb:identity>
+          <typ:extId>
+            <typ:ids>e55c8f8f-5833-4c82-b6d0-6011b260bba1</typ:ids>
+            <typ:exSystemName>mPOHODA</typ:exSystemName>
+            <typ:exSystemText>mPOHODA</typ:exSystemText>
+          </typ:extId>
+        </adb:identity>
+      </adb:addressbookHeader>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

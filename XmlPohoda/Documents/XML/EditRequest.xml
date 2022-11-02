@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0"
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+              note="Import FA" application="StwTest" ico="12345678" id="fa002">
+  <dat:dataPackItem version="2.0" id="POL001">
+    <!-- faktura bez adresy s textovou a skladovou polozkou-->
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:id>14466</inv:id>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:number>
+          <typ:numberRequested>181200038</typ:numberRequested>
+        </inv:number>
+      </inv:invoiceHeader>
+      <inv:invoiceDetail>
+        <inv:invoiceItem>
+          <inv:text>222</inv:text>
+          <inv:quantity>1</inv:quantity>
+          <inv:rateVAT>high</inv:rateVAT>
+          <inv:homeCurrency>
+            <typ:unitPrice>2200</typ:unitPrice>
+          </inv:homeCurrency>
+        </inv:invoiceItem>
+      </inv:invoiceDetail>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

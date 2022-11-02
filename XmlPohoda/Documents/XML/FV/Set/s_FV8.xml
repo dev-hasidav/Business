@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"  
+              xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd"
+              note="Import FA" application="StwTest" ico="12345678" id="fa0006">
+  <dat:dataPackItem version="2.0" id="LINK002">
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:date>2014-10-16</inv:date>
+        <inv:accounting>
+          <typ:ids>3Fv</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:classificationVATType>inland</typ:classificationVATType>
+        </inv:classificationVAT>
+        <inv:note>Načteno z XML</inv:note>
+        <inv:intNote>Faktura s vazbou na doklad přes položku dokladu.</inv:intNote>
+      </inv:invoiceHeader>
+      <inv:invoiceDetail>
+        <!--vazba na doklad pres jeho polozku-->
+        <!--doklad nesmí mít označeno pole "Vyřízeno" a "Přeneseno"-->
+        <inv:invoiceItem>
+          <inv:link>
+            <typ:sourceAgenda>receivedOrder</typ:sourceAgenda>
+            <typ:sourceItemId>8</typ:sourceItemId>
+          </inv:link>
+        </inv:invoiceItem>
+      </inv:invoiceDetail>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

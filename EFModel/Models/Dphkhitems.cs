@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace EFModel.Models
+{
+    public partial class Dphkhitems
+    {
+        public int Id { get; set; }
+        public int? UsrOrder { get; set; }
+        public bool Sel { get; set; }
+        public int? RelEdit { get; set; }
+        public int? RelStatus { get; set; }
+        public int? RefAg { get; set; }
+        public int? RelSekce { get; set; }
+        public int? RelAg { get; set; }
+        public int? RelAgId { get; set; }
+        public int? RelTp { get; set; }
+        public string Cislo { get; set; }
+        public DateTime? Datum { get; set; }
+        public int? RelTpDph { get; set; }
+        public int? RefTpDph { get; set; }
+        public int? RelVlivKhdph { get; set; }
+        public int? RelMobch { get; set; }
+        public int? RelStorn { get; set; }
+        public bool TpStorn { get; set; }
+        public bool StornOk { get; set; }
+        public bool TaxFreeItem { get; set; }
+        public string Dicorig { get; set; }
+        public string CisloKhdphorig { get; set; }
+        public DateTime? DatKhdphorig { get; set; }
+        public bool RatioKhdphorig { get; set; }
+        public string JmenoOrig { get; set; }
+        public string MistoOrig { get; set; }
+        public string A1dic { get; set; }
+        public string A1cislo { get; set; }
+        public DateTime? A1duzp { get; set; }
+        public decimal? A1taxBase { get; set; }
+        public int? A1relSzDph { get; set; }
+        public string A1kod { get; set; }
+        public string A2dic { get; set; }
+        public string A2cislo { get; set; }
+        public DateTime? A2dppd { get; set; }
+        public decimal? A2taxBase1 { get; set; }
+        public decimal? A2tax1 { get; set; }
+        public decimal? A2taxBase2 { get; set; }
+        public decimal? A2tax2 { get; set; }
+        public decimal? A2taxBase3 { get; set; }
+        public decimal? A2tax3 { get; set; }
+        public bool A2group { get; set; }
+        public string A3dic { get; set; }
+        public string A3jmeno { get; set; }
+        public DateTime? A3datNar { get; set; }
+        public string A3misto { get; set; }
+        public string A3cislo { get; set; }
+        public DateTime? A3dup { get; set; }
+        public decimal? A3taxExemption { get; set; }
+        public string A4dic { get; set; }
+        public string A4cislo { get; set; }
+        public DateTime? A4dppd { get; set; }
+        public decimal? A4taxBase1 { get; set; }
+        public decimal? A4tax1 { get; set; }
+        public decimal? A4taxBase2 { get; set; }
+        public decimal? A4tax2 { get; set; }
+        public decimal? A4taxBase3 { get; set; }
+        public decimal? A4tax3 { get; set; }
+        public string A4kod { get; set; }
+        public int? RelA4zdph { get; set; }
+        public decimal? A5taxBase1 { get; set; }
+        public decimal? A5tax1 { get; set; }
+        public decimal? A5taxBase2 { get; set; }
+        public decimal? A5tax2 { get; set; }
+        public decimal? A5taxBase3 { get; set; }
+        public decimal? A5tax3 { get; set; }
+        public string B1dic { get; set; }
+        public string B1cislo { get; set; }
+        public DateTime? B1duzp { get; set; }
+        public decimal? B1taxBase1 { get; set; }
+        public decimal? B1tax1 { get; set; }
+        public decimal? B1taxBase2 { get; set; }
+        public decimal? B1tax2 { get; set; }
+        public decimal? B1taxBase3 { get; set; }
+        public decimal? B1tax3 { get; set; }
+        public string B1kod { get; set; }
+        public DateTime? B2datum { get; set; }
+        public string B2dic { get; set; }
+        public string B2cislo { get; set; }
+        public DateTime? B2dppd { get; set; }
+        public decimal? B2taxBase1 { get; set; }
+        public decimal? B2tax1 { get; set; }
+        public decimal? B2taxBase2 { get; set; }
+        public decimal? B2tax2 { get; set; }
+        public decimal? B2taxBase3 { get; set; }
+        public decimal? B2tax3 { get; set; }
+        public bool B2ratio { get; set; }
+        public int? RelB2zdph { get; set; }
+        public decimal? B3taxBase1 { get; set; }
+        public decimal? B3tax1 { get; set; }
+        public decimal? B3taxBase2 { get; set; }
+        public decimal? B3tax2 { get; set; }
+        public decimal? B3taxBase3 { get; set; }
+        public decimal? B3tax3 { get; set; }
+        public decimal? Mamount { get; set; }
+        public string Pozn { get; set; }
+        public string Oznacil { get; set; }
+        public string Ucetni { get; set; }
+        public string Creator { get; set; }
+        public DateTime? DatCreate { get; set; }
+        public DateTime? DatSave { get; set; }
+
+        public Dphkh RefAgNavigation { get; set; }
+    }
+}

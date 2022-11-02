@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="001" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Export adresáře" version="2.0" application="TestAD" ico="12345678">
+  <dat:dataPackItem id="01" version="2.0">
+    <!-- export adresáře dle pole Obec -->
+    <lAdb:listAddressBookRequest version="2.0" addressBookVersion="2.0">
+      <lAdb:requestAddressBook>
+        <ftr:filter>
+          <ftr:city>Praha 3</ftr:city>
+        </ftr:filter>
+      </lAdb:requestAddressBook>
+    </lAdb:listAddressBookRequest>
+    <!-- export adresáře dle pole Obec -->
+    <lAdb:listAddressBookRequest version="2.0" addressBookVersion="2.0">
+      <lAdb:requestAddressBook>
+        <ftr:filter>
+          <ftr:id>1</ftr:id>
+        </ftr:filter>
+      </lAdb:requestAddressBook>
+    </lAdb:listAddressBookRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

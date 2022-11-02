@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="test"
+    elementFormDefault="qualified"
+			xmlns="http://www.stormware.cz/schema/version_2/response.xsd"
+			targetNamespace="http://www.stormware.cz/schema/version_2/response.xsd"
+      xmlns:mstns="http://tempuri.org/test.xsd"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+		  xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd"
+      xmlns:prn="http://www.stormware.cz/schema/version_2/print.xsd"
+>
+
+  <xs:import namespace="http://www.stormware.cz/schema/version_2/invoice.xsd" 	schemaLocation="S:\DevSoft\Business\XmlPohoda\Documents\Xsd\invoice.xsd"/>
+  <xs:import namespace="http://www.stormware.cz/schema/version_2/addressbook.xsd" 	schemaLocation="S:\DevSoft\Business\XmlPohoda\Documents\Xsd\addressbook.xsd"/>
+  <xs:import namespace="http://www.stormware.cz/schema/version_2/print.xsd" schemaLocation="S:\DevSoft\Business\XmlPohoda\Documents\Xsd\print.xsd"/>
+  
+  <xs:element name="responsePackItem" type="responsePackItemType"/>
+
+  <xs:complexType name="responsePackItemType">
+    <xs:choice minOccurs="0" maxOccurs="1">
+      <!-- odpověď na import -->
+      <xs:element ref="adb:addressbookResponse"/>
+      <xs:element ref="inv:invoiceResponse"/>
+      <xs:element ref="prn:printResponse" />
+    </xs:choice>
+    <xs:attribute name="version" type="xs:string" use="required"/>
+    <xs:attribute name="id" type="xs:string" use="required"/>
+    <xs:attribute name="state" type="xs:string" form="unqualified" use="required"/>
+    <xs:attribute name="note" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>

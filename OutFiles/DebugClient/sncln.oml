@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<stpsrv xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsSave>false</IsSave>
+  <Dedline>3650</Dedline>
+  <NameHost>localhost</NameHost>
+  <Port>25301</Port>
+  <NamePort>BusinessPort</NamePort>
+  <NameScope>BusinessServerConnect</NameScope>
+  <Port01>25401</Port01>
+  <NamePort01>BusinessPort01</NamePort01>
+  <NameScope01>Business01Connect</NameScope01>
+  <IPSql>192.168.122.204</IPSql>
+  <IPSqlWork>192.168.122.204</IPSqlWork>
+  <User>sa</User>
+  <UserSqlWork>sa</UserSqlWork>
+  <Password>!LQS+15426378.</Password>
+  <PasswordSqlWork>!LQS+15426378.</PasswordSqlWork>
+  <RootPathDocuments>P:\PohodaDATA\Dokumenty</RootPathDocuments>
+  <PrefiksBase>StwPh</PrefiksBase>
+  <RootPathData>P:\PohodaDATA\</RootPathData>
+  <PathPogoda>P:\PohodaAPPS\Pohoda.exe</PathPogoda>
+  <LPohoda>Admin</LPohoda>
+  <PPohoda>Pohoda+770</PPohoda>
+  <LCmd />
+  <PCmd />
+  <MailServer>mail.your-server.de</MailServer>
+  <MailPort>587</MailPort>
+</stpsrv>

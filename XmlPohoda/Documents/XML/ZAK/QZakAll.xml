@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<dat:dataPack id="0001" version="2.0"
+	      xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+	      xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd"
+	      xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd"
+	      xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+	          note="Export" application="StwTest" ico="000000000">
+  <dat:dataPackItem id="Zak01" version="2.0">
+    <lCon:listContractRequest version="2.0" contractVersion="2.0">
+      <lCon:requestContract>
+        <ftr:filter>
+        </ftr:filter>
+      </lCon:requestContract>
+    </lCon:listContractRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

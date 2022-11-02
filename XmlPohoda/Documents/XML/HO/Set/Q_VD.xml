@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<dat:dataPack version="2.0"
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+              xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd"
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+              note="Import Pokladního dokladu" application="StwTest" ico="12345678" id="po001">
+  <!-- Pokladní doklad bez položek -->
+  <dat:dataPackItem version="2.0" id="POK001">
+    <vch:voucher version="2.0">
+      <vch:voucherHeader>
+        <vch:voucherType>expense</vch:voucherType>
+        <vch:cashAccount>
+          <typ:ids>HP</typ:ids>
+        </vch:cashAccount>
+        <vch:date>2018-10-14</vch:date>
+        <vch:datePayment>2018-10-14</vch:datePayment>
+        <vch:dateTax>2018-11-10</vch:dateTax>
+        <vch:classificationVAT>
+          <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+        </vch:classificationVAT>
+        <vch:text>Záloha na pracovní cestu. CP č. 25CPT001</vch:text>
+        <!--adresa bez vazby na program POHODA-->
+        <vch:partnerIdentity>
+          <typ:address>
+            <typ:name>Janáček Petr</typ:name>
+            <typ:city>Jihlava 1</typ:city>
+            <typ:street>Jiráskova 26</typ:street>
+            <typ:zip>58601</typ:zip>
+          </typ:address>
+        </vch:partnerIdentity>
+        <vch:centre>
+          <typ:ids>Jihlava</typ:ids>
+        </vch:centre>
+        <vch:note>načteno z XML.</vch:note>
+        <vch:intNote>Import Pokladního dokladu bez položek.</vch:intNote>
+      </vch:voucherHeader>
+      <vch:voucherSummary>
+        <vch:homeCurrency>
+          <typ:priceNone>300</typ:priceNone>
+        </vch:homeCurrency>
+      </vch:voucherSummary>
+    </vch:voucher>
+  </dat:dataPackItem>
+</dat:dataPack>

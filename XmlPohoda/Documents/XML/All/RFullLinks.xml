@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rsp:responsePack version="2.0" id="dp-100" state="ok" programVersion="12407.2 SQL (17.3.2020)" ico="000000000" key="07bd7ee7-8446-4e0b-9def-86eca5bba9e7" note="Import FA" 
+                  xmlns:rsp="http://www.stormware.cz/schema/version_2/response.xsd" xmlns:rdc="http://www.stormware.cz/schema/version_2/documentresponse.xsd" 
+  xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" 
+  xmlns:lStk="http://www.stormware.cz/schema/version_2/list_stock.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:lCen="http://www.stormware.cz/schema/version_2/list_centre.xsd" xmlns:lAcv="http://www.stormware.cz/schema/version_2/list_activity.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:stk="http://www.stormware.cz/schema/version_2/stock.xsd" xmlns:ord="http://www.stormware.cz/schema/version_2/order.xsd" xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd" xmlns:vyd="http://www.stormware.cz/schema/version_2/vydejka.xsd" xmlns:pri="http://www.stormware.cz/schema/version_2/prijemka.xsd" xmlns:bal="http://www.stormware.cz/schema/version_2/balance.xsd" xmlns:pre="http://www.stormware.cz/schema/version_2/prevodka.xsd" xmlns:vyr="http://www.stormware.cz/schema/version_2/vyroba.xsd" xmlns:pro="http://www.stormware.cz/schema/version_2/prodejka.xsd" xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:prm="http://www.stormware.cz/schema/version_2/parameter.xsd" xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd" xmlns:ctg="http://www.stormware.cz/schema/version_2/category.xsd" xmlns:ipm="http://www.stormware.cz/schema/version_2/intParam.xsd" xmlns:str="http://www.stormware.cz/schema/version_2/storage.xsd" xmlns:idp="http://www.stormware.cz/schema/version_2/individualPrice.xsd" xmlns:sup="http://www.stormware.cz/schema/version_2/supplier.xsd" xmlns:prn="http://www.stormware.cz/schema/version_2/print.xsd" xmlns:sEET="http://www.stormware.cz/schema/version_2/sendEET.xsd" xmlns:act="http://www.stormware.cz/schema/version_2/accountancy.xsd" xmlns:bnk="http://www.stormware.cz/schema/version_2/bank.xsd" xmlns:sto="http://www.stormware.cz/schema/version_2/store.xsd" xmlns:grs="http://www.stormware.cz/schema/version_2/groupStocks.xsd" xmlns:acp="http://www.stormware.cz/schema/version_2/actionPrice.xsd" xmlns:csh="http://www.stormware.cz/schema/version_2/cashRegister.xsd" xmlns:bka="http://www.stormware.cz/schema/version_2/bankAccount.xsd" xmlns:ilt="http://www.stormware.cz/schema/version_2/inventoryLists.xsd" xmlns:nms="http://www.stormware.cz/schema/version_2/numericalSeries.xsd" xmlns:pay="http://www.stormware.cz/schema/version_2/payment.xsd" xmlns:mKasa="http://www.stormware.cz/schema/version_2/mKasa.xsd" xmlns:gdp="http://www.stormware.cz/schema/version_2/GDPR.xsd" xmlns:est="http://www.stormware.cz/schema/version_2/establishment.xsd" xmlns:cen="http://www.stormware.cz/schema/version_2/centre.xsd" xmlns:acv="http://www.stormware.cz/schema/version_2/activity.xsd" xmlns:afp="http://www.stormware.cz/schema/version_2/accountingFormOfPayment.xsd" xmlns:vat="http://www.stormware.cz/schema/version_2/classificationVAT.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:asv="http://www.stormware.cz/schema/version_2/accountingSalesVouchers.xsd">
+  
+    <rsp:responsePackItem version="2.0" id="pk-100" state="ok">
+    <inv:invoiceResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Vydané faktury do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[1]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[1]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[1]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[1]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[1]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[1]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </inv:invoiceResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-101" state="ok">
+    <inv:invoiceResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Vydané zálohové faktury do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </inv:invoiceResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-102" state="ok">
+    <vch:voucherResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Prijaté faktury do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[3]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[3]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[3]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[3]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[3]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[3]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </vch:voucherResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-103" state="ok">
+    <inv:invoiceResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Prijaté zálohové faktury do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[4]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[4]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[4]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[4]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[4]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[4]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </inv:invoiceResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-104" state="ok">
+    <inv:invoiceResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Ostatní pohledávky do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[5]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[5]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[5]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[5]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[5]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[5]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </inv:invoiceResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-105" state="ok">
+    <vch:voucherResponse version="2.0" state="ok">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Ostatní závazky do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[6]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[6]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[6]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[6]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[6]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[6]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </vch:voucherResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-106" state="ok">
+    <inv:invoiceResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Vydané objednávky do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </inv:invoiceResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pop-001" state="ok">
+    <enq:enquiryResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>114</rdc:errno>
+          <rdc:note>V této verzi není povolen prenos z agendy Vydané objednávky do agendy Vydané faktury.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:links[1]/typ:link[1]/typ:sourceAgenda</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[7]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </enq:enquiryResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-107" state="ok">
+    <inv:invoiceResponse version="2.0" state="error">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>error</rdc:state>
+          <rdc:errno>115</rdc:errno>
+          <rdc:note>Záznam se zadaným ID/IDS neexistuje nebo ho není možné prenést.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[8]/inv:invoice[1]/inv:links[1]/typ:link[1]</rdc:XPath>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[8]/inv:invoice[1]/inv:invoiceHeader[1]/inv:date</rdc:XPath>
+          <rdc:valueProduced>07.04.2020</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[8]/inv:invoice[1]/inv:invoiceHeader[1]/inv:accounting</rdc:XPath>
+          <rdc:valueProduced>3Fv</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[8]/inv:invoice[1]/inv:invoiceHeader[1]/inv:classificationVAT</rdc:XPath>
+          <rdc:valueProduced>UD</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[8]/inv:invoice[1]/inv:invoiceHeader[1]/inv:paymentType</rdc:XPath>
+          <rdc:valueProduced>príkazem</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Neznámý úcet</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[8]/inv:invoice[1]/inv:invoiceHeader[1]/inv:account</rdc:XPath>
+          <rdc:valueProduced>FIO</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>20S040031</rdc:number>
+        <rdc:actionType>link</rdc:actionType>
+      </rdc:producedDetails>
+    </inv:invoiceResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-108" state="error" note="&#xA;• Nepodarila se validace dokumentu podle schématu. &#xA;			&lt;typ:sourceAgenda&gt;offer&lt;/typ:sourceAgenda&gt;&#xA;'offer' violates enumeration constraint of 'issuedInvoice issuedAdvanceInvoice receivable receivedInvoice receivedAdvanceInvoice commitment issuedOrder receivedOrder issuedOffer receivedOffer issuedEnquiry receivedEnquiry receiptVoucher issueSlip transfer claims service'.&#xA;The element '{http://www.stormware.cz/schema/version_2/type.xsd}sourceAgenda' with value 'offer' failed to parse.&#xA;"></rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-109" state="error" note="&#xA;• Nepodarila se validace dokumentu podle schématu. &#xA;			&lt;typ:sourceAgenda&gt;offer&lt;/typ:sourceAgenda&gt;&#xA;'offer' violates enumeration constraint of 'issuedInvoice issuedAdvanceInvoice receivable receivedInvoice receivedAdvanceInvoice commitment issuedOrder receivedOrder issuedOffer receivedOffer issuedEnquiry receivedEnquiry receiptVoucher issueSlip transfer claims service'.&#xA;The element '{http://www.stormware.cz/schema/version_2/type.xsd}sourceAgenda' with value 'offer' failed to parse.&#xA;"></rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-110" state="error" note="&#xA;• Nepodarila se validace dokumentu podle schématu. &#xA;			&lt;typ:sourceAgenda&gt;enquiry&lt;/typ:sourceAgenda&gt;&#xA;'enquiry' violates enumeration constraint of 'issuedInvoice issuedAdvanceInvoice receivable receivedInvoice receivedAdvanceInvoice commitment issuedOrder receivedOrder issuedOffer receivedOffer issuedEnquiry receivedEnquiry receiptVoucher issueSlip transfer claims service'.&#xA;The element '{http://www.stormware.cz/schema/version_2/type.xsd}sourceAgenda' with value 'enquiry' failed to parse.&#xA;"></rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pk-111" state="error" note="&#xA;• Nepodarila se validace dokumentu podle schématu. &#xA;			&lt;typ:sourceAgenda&gt;enquiry&lt;/typ:sourceAgenda&gt;&#xA;'enquiry' violates enumeration constraint of 'issuedInvoice issuedAdvanceInvoice receivable receivedInvoice receivedAdvanceInvoice commitment issuedOrder receivedOrder issuedOffer receivedOffer issuedEnquiry receivedEnquiry receiptVoucher issueSlip transfer claims service'.&#xA;The element '{http://www.stormware.cz/schema/version_2/type.xsd}sourceAgenda' with value 'enquiry' failed to parse.&#xA;"></rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="fa-001" state="ok">
+    <inv:invoiceResponse version="2.0" state="ok">
+      <rdc:producedDetails>
+        <rdc:id>33828</rdc:id>
+        <rdc:number>20S040028</rdc:number>
+        <rdc:actionType>add</rdc:actionType>
+      </rdc:producedDetails>
+    </inv:invoiceResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="ho-001" state="ok">
+    <vch:voucherResponse version="2.0" state="ok">
+      <rdc:importDetails>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>606</rdc:errno>
+          <rdc:note>Datum není z úcetního období.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/vch:voucher[1]/vch:voucherHeader[1]/vch:dateTax</rdc:XPath>
+          <rdc:valueRequested>03.06.2018</rdc:valueRequested>
+          <rdc:valueProduced>03.06.2018</rdc:valueProduced>
+        </rdc:detail>
+        <rdc:detail>
+          <rdc:state>warning</rdc:state>
+          <rdc:errno>603</rdc:errno>
+          <rdc:note>Hodnota prvku musela být upravena.</rdc:note>
+          <rdc:XPath>/dat:dataPack/dat:dataPackItem[2]/vch:voucher[1]/vch:voucherHeader[1]/vch:accounting</rdc:XPath>
+          <rdc:valueProduced>4Pv spotreba</rdc:valueProduced>
+        </rdc:detail>
+      </rdc:importDetails>
+      <rdc:producedDetails>
+        <rdc:id>15159</rdc:id>
+        <rdc:number>20HVF0132</rdc:number>
+        <rdc:actionType>add</rdc:actionType>
+      </rdc:producedDetails>
+    </vch:voucherResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="pdf-001" state="ok">
+    <prn:printResponse version="1.0" state="ok">
+      <rdc:producedDetails>
+        <rdc:id>0</rdc:id>
+        <rdc:number>
+        </rdc:number>
+        <rdc:actionType>print</rdc:actionType>
+      </rdc:producedDetails>
+    </prn:printResponse>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="ad-001" state="ok">
+    <lAdb:listAddressBook version="2.0" dateTimeStamp="2019-12-20T16:50:33" dateValidFrom="2019-12-20" state="ok">
+      <lAdb:addressbook version="2.0">
+        <adb:addressbookHeader>
+          <adb:id>1</adb:id>
+          <adb:identity>
+            <typ:address>
+              <typ:company>11. STORMWARE s.r.o.</typ:company>
+              <typ:division></typ:division>
+              <typ:name></typ:name>
+              <typ:city>Jihlava</typ:city>
+              <typ:street>Za Prachárnou 45, PS22</typ:street>
+              <typ:zip>586 01</typ:zip>
+            </typ:address>
+          </adb:identity>
+          <adb:phone>567 112 612</adb:phone>
+          <adb:fax>567 112 610</adb:fax>
+          <adb:email>info@stormware.cz</adb:email>
+          <adb:web>www.stormware.cz</adb:web>
+          <adb:adGroup>Výrobce software</adb:adGroup>
+          <adb:adKey>Viz historie</adb:adKey>
+          <adb:p1>false</adb:p1>
+          <adb:p2>false</adb:p2>
+          <adb:p3>false</adb:p3>
+          <adb:p4>false</adb:p4>
+          <adb:p5>false</adb:p5>
+          <adb:p6>false</adb:p6>
+          <adb:turnover>0</adb:turnover>
+          <adb:markRecord>false</adb:markRecord>
+        </adb:addressbookHeader>
+      </lAdb:addressbook>
+    </lAdb:listAddressBook>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="ad-002" state="ok">
+    <lAdb:listAddressBook version="2.0" dateTimeStamp="2019-12-20T16:50:33" dateValidFrom="2019-12-20" state="error">
+      <lAdb:addressbook version="2.0">
+        <adb:addressbookHeader>
+          <adb:id>1</adb:id>
+          <adb:identity>
+            <typ:address>
+              <typ:company>11. STORMWARE s.r.o.</typ:company>
+              <typ:division></typ:division>
+              <typ:name></typ:name>
+              <typ:city>Jihlava</typ:city>
+              <typ:street>Za Prachárnou 45, PS22</typ:street>
+              <typ:zip>586 01</typ:zip>
+            </typ:address>
+          </adb:identity>
+          <adb:phone>567 112 612</adb:phone>
+          <adb:fax>567 112 610</adb:fax>
+          <adb:email>info@stormware.cz</adb:email>
+          <adb:web>www.stormware.cz</adb:web>
+          <adb:adGroup>Výrobce software</adb:adGroup>
+          <adb:adKey>Viz historie</adb:adKey>
+          <adb:p1>false</adb:p1>
+          <adb:p2>false</adb:p2>
+          <adb:p3>false</adb:p3>
+          <adb:p4>false</adb:p4>
+          <adb:p5>false</adb:p5>
+          <adb:p6>false</adb:p6>
+          <adb:turnover>0</adb:turnover>
+          <adb:markRecord>false</adb:markRecord>
+        </adb:addressbookHeader>
+      </lAdb:addressbook>
+    </lAdb:listAddressBook>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="zak-001" state="ok">
+    <lCon:listContract version="2.0" dateTimeStamp="2018-03-10T21:36:39" dateValidFrom="2018-03-10" state="ok">
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>12</con:id>
+          <con:number>
+            <typ:numberRequested>GAdministr</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2002-02-22</con:datePlanStart>
+          <con:dateStart>2002-02-22</con:dateStart>
+          <con:text>Gazda, spol. s r.o. -  - K �i�kovu 381/1 -  Hozda Yuriy                  </con:text>
+          <con:partnerIdentity>
+            <typ:id>19</typ:id>
+            <typ:address>
+              <typ:company>  Gazda, spol. s r.o.</typ:company>
+              <typ:name>Yuriy Hozda</typ:name>
+              <typ:city>Praha 9 Vysocany</typ:city>
+              <typ:street>K �i�kovu 381/1</typ:street>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>26506050</typ:ico>
+              <typ:dic>CZ26506050</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:name></typ:name>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:contractState>opened</con:contractState>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+    </lCon:listContract>
+  </rsp:responsePackItem>
+  <rsp:responsePackItem version="2.0" id="bv-001" state="ok">
+    <lst:listBank version="2.0" dateTimeStamp="2018-03-10T21:37:13" dateValidFrom="2018-03-10" state="ok">
+      <lst:bank version="2.0">
+        <bnk:bankHeader>
+          <bnk:id>4137</bnk:id>
+          <bnk:bankType>receipt</bnk:bankType>
+          <bnk:account>
+            <typ:id>4</typ:id>
+            <typ:ids>Fio</typ:ids>
+          </bnk:account>
+          <bnk:number>Fio0010001</bnk:number>
+          <bnk:statementNumber>
+            <bnk:statementNumber>001</bnk:statementNumber>
+            <bnk:numberMovement>0001</bnk:numberMovement>
+          </bnk:statementNumber>
+          <bnk:symVar>160100108</bnk:symVar>
+          <bnk:dateStatement>2017-01-31</bnk:dateStatement>
+          <bnk:datePayment>2017-01-05</bnk:datePayment>
+          <bnk:accounting>
+            <typ:id>5</typ:id>
+            <typ:ids>1Bp</typ:ids>
+          </bnk:accounting>
+          <bnk:text>�hrada FV �. 160100108, Fakturujeme V�m �klidov� slu�by dle Va�� objedn�vky  -  objekt c. 3026 z</bnk:text>
+          <bnk:partnerIdentity>
+            <typ:id>13</typ:id>
+            <typ:address>
+              <typ:company>EuroServis Clean CR, a.s.</typ:company>
+              <typ:city>Praha 6</typ:city>
+              <typ:street>Verdunsk� 723/27</typ:street>
+              <typ:zip>160 00</typ:zip>
+              <typ:ico>41600711</typ:ico>
+              <typ:dic>CZ41600711</typ:dic>
+            </typ:address>
+          </bnk:partnerIdentity>
+          <bnk:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </bnk:myIdentity>
+          <bnk:paymentAccount>
+            <typ:accountNo>521111005</typ:accountNo>
+            <typ:bankCode>2700</typ:bankCode>
+          </bnk:paymentAccount>
+          <bnk:symConst>0008</bnk:symConst>
+          <bnk:symSpec>0</bnk:symSpec>
+          <bnk:centre>
+            <typ:id>3</typ:id>
+            <typ:ids>OlhaSoyma</typ:ids>
+          </bnk:centre>
+          <bnk:activity>
+            <typ:id>1</typ:id>
+            <typ:ids>�klidov�</typ:ids>
+          </bnk:activity>
+          <bnk:contract>
+            <typ:id>9</typ:id>
+            <typ:ids>29GG08</typ:ids>
+          </bnk:contract>
+        </bnk:bankHeader>
+        <bnk:bankDetail>
+          <bnk:bankItem>
+            <bnk:text>�hrada FV �. 160100108</bnk:text>
+            <bnk:homeCurrency>
+              <bnk:unitPrice>107085</bnk:unitPrice>
+            </bnk:homeCurrency>
+            <bnk:foreignCurrency>
+              <bnk:unitPrice>0</bnk:unitPrice>
+            </bnk:foreignCurrency>
+            <bnk:symPar>160100108</bnk:symPar>
+            <bnk:accounting>
+              <typ:id>5</typ:id>
+              <typ:ids>1Bp</typ:ids>
+            </bnk:accounting>
+          </bnk:bankItem>
+        </bnk:bankDetail>
+        <bnk:bankSummary>
+          <bnk:roundingDocument>none</bnk:roundingDocument>
+          <bnk:roundingVAT>none</bnk:roundingVAT>
+          <bnk:homeCurrency>
+            <typ:priceNone>107085</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </bnk:homeCurrency>
+        </bnk:bankSummary>
+      </lst:bank>
+    </lst:listBank>
+  </rsp:responsePackItem>
+</rsp:responsePack>

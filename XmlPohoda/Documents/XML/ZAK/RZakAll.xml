@@ -1,0 +1,2795 @@
+<?xml version="1.0" encoding="Windows-1250"?>
+<rsp:responsePack version="2.0" id="0001" state="ok" programVersion="12407.2 SQL (17.3.2020)" ico="000000000" key="07bd7ee7-8446-4e0b-9def-86eca5bba9e7" note="Export" xmlns:rsp="http://www.stormware.cz/schema/version_2/response.xsd" xmlns:rdc="http://www.stormware.cz/schema/version_2/documentresponse.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:lStk="http://www.stormware.cz/schema/version_2/list_stock.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:lCen="http://www.stormware.cz/schema/version_2/list_centre.xsd" xmlns:lAcv="http://www.stormware.cz/schema/version_2/list_activity.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:stk="http://www.stormware.cz/schema/version_2/stock.xsd" xmlns:ord="http://www.stormware.cz/schema/version_2/order.xsd" xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd" xmlns:vyd="http://www.stormware.cz/schema/version_2/vydejka.xsd" xmlns:pri="http://www.stormware.cz/schema/version_2/prijemka.xsd" xmlns:bal="http://www.stormware.cz/schema/version_2/balance.xsd" xmlns:pre="http://www.stormware.cz/schema/version_2/prevodka.xsd" xmlns:vyr="http://www.stormware.cz/schema/version_2/vyroba.xsd" xmlns:pro="http://www.stormware.cz/schema/version_2/prodejka.xsd" xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:prm="http://www.stormware.cz/schema/version_2/parameter.xsd" xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd" xmlns:ctg="http://www.stormware.cz/schema/version_2/category.xsd" xmlns:ipm="http://www.stormware.cz/schema/version_2/intParam.xsd" xmlns:str="http://www.stormware.cz/schema/version_2/storage.xsd" xmlns:idp="http://www.stormware.cz/schema/version_2/individualPrice.xsd" xmlns:sup="http://www.stormware.cz/schema/version_2/supplier.xsd" xmlns:prn="http://www.stormware.cz/schema/version_2/print.xsd" xmlns:sEET="http://www.stormware.cz/schema/version_2/sendEET.xsd" xmlns:act="http://www.stormware.cz/schema/version_2/accountancy.xsd" xmlns:bnk="http://www.stormware.cz/schema/version_2/bank.xsd" xmlns:sto="http://www.stormware.cz/schema/version_2/store.xsd" xmlns:grs="http://www.stormware.cz/schema/version_2/groupStocks.xsd" xmlns:acp="http://www.stormware.cz/schema/version_2/actionPrice.xsd" xmlns:csh="http://www.stormware.cz/schema/version_2/cashRegister.xsd" xmlns:bka="http://www.stormware.cz/schema/version_2/bankAccount.xsd" xmlns:ilt="http://www.stormware.cz/schema/version_2/inventoryLists.xsd" xmlns:nms="http://www.stormware.cz/schema/version_2/numericalSeries.xsd" xmlns:pay="http://www.stormware.cz/schema/version_2/payment.xsd" xmlns:mKasa="http://www.stormware.cz/schema/version_2/mKasa.xsd" xmlns:gdp="http://www.stormware.cz/schema/version_2/GDPR.xsd" xmlns:est="http://www.stormware.cz/schema/version_2/establishment.xsd" xmlns:cen="http://www.stormware.cz/schema/version_2/centre.xsd" xmlns:acv="http://www.stormware.cz/schema/version_2/activity.xsd" xmlns:afp="http://www.stormware.cz/schema/version_2/accountingFormOfPayment.xsd" xmlns:vat="http://www.stormware.cz/schema/version_2/classificationVAT.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:asv="http://www.stormware.cz/schema/version_2/accountingSalesVouchers.xsd">
+  <rsp:responsePackItem version="2.0" id="Zak01" state="ok">
+    <lCon:listContract version="2.0" dateTimeStamp="2020-04-04T13:12:56" dateValidFrom="2020-04-04" state="ok">
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>1014</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0030</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>Santech alfa </con:text>
+          <con:partnerIdentity>
+            <typ:id>289</typ:id>
+            <typ:address>
+              <typ:company>Santech alfa s.r.o.</typ:company>
+              <typ:name>Michal Pustejovský</typ:name>
+              <typ:city>Praha</typ:city>
+              <typ:street>Štepánská 2071/37</typ:street>
+              <typ:zip>11000</typ:zip>
+              <typ:ico>24277665</typ:ico>
+              <typ:dic>CZ24277665</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:name/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>1037</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0032</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>EuroServis Clean CR, a.s.</con:text>
+          <con:partnerIdentity>
+            <typ:id>316</typ:id>
+            <typ:address>
+              <typ:company>EuroServis Clean CR, a.s.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Verdunská 723/27</typ:street>
+              <typ:zip>16000</typ:zip>
+              <typ:ico>41600711</typ:ico>
+              <typ:dic>CZ41600711</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2036</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0031</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>Stavby COMPLET CZE s.r.o. -  Družstevni 276/15, Mohelnice za </con:text>
+          <con:partnerIdentity>
+            <typ:id>1332</typ:id>
+            <typ:address>
+              <typ:company>Stavby COMPLET CZE s.r.o.</typ:company>
+              <typ:city>Mohelnice</typ:city>
+              <typ:street>Družstevní 276/15</typ:street>
+              <typ:zip>789 85</typ:zip>
+              <typ:ico>04680260</typ:ico>
+              <typ:dic>CZ04680260</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2040</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0001</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING -  Lear</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2041</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0002</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - OB­CLE­18­02429­1</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2042</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0003</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - KB</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2043</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0004</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING -Satpo,Lonza,Zlicin, Tools,Fedex,V-podlahy, Chrašt,Inco,Satpo,Brano, Elf,Int</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>11000</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:ost2>CZ505106</con:ost2>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2044</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0005</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING -Pfizer</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:ost2>CZ484106</con:ost2>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2045</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0006</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - Lear vice práce</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2046</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0007</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING -  PPH, Hill's,DRFG, AREAL</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:ost2>CZ880117</con:ost2>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2047</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0008</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING,PPH, FIO,Amigal Gr.,Dallmayr, SONY,Deutsche,Leasing,Diamond BPS, Syndicat, C</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:ost2>CZ115106</con:ost2>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2048</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0009</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING -  Kostal</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2049</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0010</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - M. Kors</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2050</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0011</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>BALANCE CZ - Areál Synthos Kralupy</con:text>
+          <con:partnerIdentity>
+            <typ:id>119</typ:id>
+            <typ:address>
+              <typ:company>BALANCE CZ s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Rooseveltova 764/31</typ:street>
+              <typ:zip>160 00</typ:zip>
+              <typ:ico>27145972</typ:ico>
+              <typ:dic>CZ27145972</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2051</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0012</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>rame group s.r.o. -  ul.Lipová 27/27 Žatec</con:text>
+          <con:partnerIdentity>
+            <typ:id>274</typ:id>
+            <typ:address>
+              <typ:company>rame group s.r.o.</typ:company>
+              <typ:name>Pavel Rameš</typ:name>
+              <typ:city>Teplice</typ:city>
+              <typ:street>Hlávkova 753/2</typ:street>
+              <typ:zip>415 01</typ:zip>
+              <typ:ico>25476416</typ:ico>
+              <typ:dic>CZ25476416</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:name/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2052</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0013</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>Stavební výhoda -  RD-Žofije pod Lypne</con:text>
+          <con:partnerIdentity>
+            <typ:id>72</typ:id>
+            <typ:address>
+              <typ:company>Stavební výhoda, spol. s r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Vyskocilova 1326/5</typ:street>
+              <typ:zip>14000</typ:zip>
+              <typ:ico>63075865</typ:ico>
+              <typ:dic>CZ63075865</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2053</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0014</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - OB­CLE­18­02875­1</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>11000</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2054</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0015</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR, - Hate</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2055</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0016</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Vrbcany</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2056</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0017</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Peklo</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2057</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0018</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Tismice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2058</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0019</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Korotice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2059</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0020</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - C.Brod</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2060</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0021</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Sazava</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2061</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0022</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Klinec, Jilovište</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2062</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0023</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Horušice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2063</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0024</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>EuroServis Clean - 3045 Avenir</con:text>
+          <con:partnerIdentity>
+            <typ:id>316</typ:id>
+            <typ:address>
+              <typ:company>EuroServis Clean CR, a.s.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Verdunská 723/27</typ:street>
+              <typ:zip>16000</typ:zip>
+              <typ:ico>41600711</typ:ico>
+              <typ:dic>CZ41600711</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2064</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0025</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>MARDIAN - pomocné a bálicí práce  Horní Pocernice a Slany.</con:text>
+          <con:partnerIdentity>
+            <typ:id>51</typ:id>
+            <typ:address>
+              <typ:company>MARDIAN, s.r.o.</typ:company>
+              <typ:city>Praha 411</typ:city>
+              <typ:street>V lužích 1/10</typ:street>
+              <typ:zip>142 00</typ:zip>
+              <typ:ico>25743112</typ:ico>
+              <typ:dic>CZ25743112</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2065</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0026</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>ALBA CR spol. s r.o. - Škvorec stavební</con:text>
+          <con:partnerIdentity>
+            <typ:id>133</typ:id>
+            <typ:address>
+              <typ:company>ALBA CR spol. s r.o.</typ:company>
+              <typ:city>Škvorec</typ:city>
+              <typ:street>Masarykovo námestí 26</typ:street>
+              <typ:zip>250 83</typ:zip>
+              <typ:ico>62909134</typ:ico>
+              <typ:dic>CZ62909134</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2066</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0027</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>ALBA CR spol. s r.o. - Kompletaci, baleni vyrobku, a jiné práce Škvorec</con:text>
+          <con:partnerIdentity>
+            <typ:id>133</typ:id>
+            <typ:address>
+              <typ:company>ALBA CR spol. s r.o.</typ:company>
+              <typ:city>Škvorec</typ:city>
+              <typ:street>Masarykovo námestí 26</typ:street>
+              <typ:zip>250 83</typ:zip>
+              <typ:ico>62909134</typ:ico>
+              <typ:dic>CZ62909134</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2067</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0028</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING </con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2069</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0033</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>EuroServis Clean - 3026</con:text>
+          <con:partnerIdentity>
+            <typ:id>316</typ:id>
+            <typ:address>
+              <typ:company>EuroServis Clean CR, a.s.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Verdunská 723/27</typ:street>
+              <typ:zip>16000</typ:zip>
+              <typ:ico>41600711</typ:ico>
+              <typ:dic>CZ41600711</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>true</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2070</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0034</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>YABOK s.r.o.</con:text>
+          <con:partnerIdentity>
+            <typ:id>3384</typ:id>
+            <typ:address>
+              <typ:company>YABOK s.r.o.</typ:company>
+              <typ:city>Milovice</typ:city>
+              <typ:street>5. kvetna 267/51</typ:street>
+              <typ:zip>289 24</typ:zip>
+              <typ:ico>27204235</typ:ico>
+              <typ:dic>CZ27204235</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2071</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0035</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - Creditas Plzen</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2072</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0036</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - DRFG</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2073</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0037</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Bojmany</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>true</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2074</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0038</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Lety</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2075</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0039</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR, - Kropacová Vrutice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2076</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0040</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR, -Opolany</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2077</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0041</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>YABOK s.r.o. - Novartis</con:text>
+          <con:partnerIdentity>
+            <typ:id>3384</typ:id>
+            <typ:address>
+              <typ:company>YABOK s.r.o.</typ:company>
+              <typ:city>Milovice</typ:city>
+              <typ:street>5. kvetna 267/51</typ:street>
+              <typ:zip>289 24</typ:zip>
+              <typ:ico>27204235</typ:ico>
+              <typ:dic>CZ27204235</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2078</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0042</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>YABOK s.r.o. - Astelas, Milovice</con:text>
+          <con:partnerIdentity>
+            <typ:id>3384</typ:id>
+            <typ:address>
+              <typ:company>YABOK s.r.o.</typ:company>
+              <typ:city>Milovice</typ:city>
+              <typ:street>5. kvetna 267/51</typ:street>
+              <typ:zip>289 24</typ:zip>
+              <typ:ico>27204235</typ:ico>
+              <typ:dic>CZ27204235</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2079</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0043</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>KAPR Finance, s.r.o.</con:text>
+          <con:partnerIdentity>
+            <typ:id>3412</typ:id>
+            <typ:address>
+              <typ:company>KAPR Finance, s.r.o.</typ:company>
+              <typ:city>Ceský Brod</typ:city>
+              <typ:street>Ruská 689</typ:street>
+              <typ:zip>28201</typ:zip>
+              <typ:ico>06610714</typ:ico>
+              <typ:dic>CZ06610714</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2080</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0044</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Zbizuby</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2081</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0045</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Dobrichovice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2082</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0046</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - V.Všelisy</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>2083</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0047</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:dateDelivery>2018-01-01</con:dateDelivery>
+          <con:text>Fakturujeme Vám  : uklidove prací na objektech od OKIN.</con:text>
+          <con:partnerIdentity>
+            <typ:id>3385</typ:id>
+            <typ:address>
+              <typ:company>Kopkuy CZ spol. s r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Jaurisova 515/4</typ:street>
+              <typ:zip>140 00</typ:zip>
+              <typ:ico>06489796</typ:ico>
+              <typ:dic>CZ06489796</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:contractState>closed</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:ost2/>
+          <con:markRecord>true</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3083</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0048</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>OKIN CLEANING - Brano Jablonec, Rakovnik</con:text>
+          <con:partnerIdentity>
+            <typ:id>325</typ:id>
+            <typ:address>
+              <typ:company>OKIN CLEANING CZ, s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Parížská 68/9</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>28961471</typ:ico>
+              <typ:dic>CZ28961471</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:ost2>CZ477126</con:ost2>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3084</con:id>
+          <con:number>
+            <typ:numberRequested>18Zak0049</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-11-01</con:datePlanStart>
+          <con:dateStart>2018-12-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Lhota</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3085</con:id>
+          <con:number>
+            <typ:numberRequested>18Zak0050</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-11-01</con:datePlanStart>
+          <con:dateStart>2018-12-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Rohozec</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3086</con:id>
+          <con:number>
+            <typ:numberRequested>18Zak0051</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-11-01</con:datePlanStart>
+          <con:text>STAVITELSTVÍ REHOR - Pritoky</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3087</con:id>
+          <con:number>
+            <typ:numberRequested>18Zak0052</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-11-01</con:datePlanStart>
+          <con:dateStart>2018-12-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Dobrichovice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3088</con:id>
+          <con:number>
+            <typ:numberRequested>18Zak0053</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-12-01</con:datePlanStart>
+          <con:dateStart>2018-12-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Krecovice 557</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3089</con:id>
+          <con:number>
+            <typ:numberRequested>18Zak0054</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-12-01</con:datePlanStart>
+          <con:dateStart>2018-12-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Ronov nad Doubravou</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3090</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0055</typ:numberRequested>
+          </con:number>
+          <con:text>Karla Laubeova - úklid domacnosti</con:text>
+          <con:partnerIdentity>
+            <typ:id>3420</typ:id>
+            <typ:address>
+              <typ:name>Karla Laubeova</typ:name>
+              <typ:city>Praha 6</typ:city>
+              <typ:street>Cinska 12</typ:street>
+              <typ:zip>160 00</typ:zip>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:name/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3091</con:id>
+          <con:number>
+            <typ:id>520</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak0056</typ:numberRequested>
+          </con:number>
+          <con:text>BLASER s.r.o.</con:text>
+          <con:partnerIdentity>
+            <typ:id>34</typ:id>
+            <typ:address>
+              <typ:company>BLASER s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Karla Michala 159</typ:street>
+              <typ:zip>156 00</typ:zip>
+              <typ:ico>26425807</typ:ico>
+              <typ:dic>CZ26425807</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3092</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0001</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-02-01</con:datePlanStart>
+          <con:dateStart>2019-02-01</con:dateStart>
+          <con:text>Jan Rimnác</con:text>
+          <con:partnerIdentity>
+            <typ:id>3430</typ:id>
+            <typ:address>
+              <typ:company>Jan Rimnác</typ:company>
+              <typ:city>Zruc nad Sázavou</typ:city>
+              <typ:street>Topolová 507</typ:street>
+              <typ:zip>28522</typ:zip>
+              <typ:ico>48669687</typ:ico>
+              <typ:dic>CZ7505300869</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3093</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0002</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-02-01</con:datePlanStart>
+          <con:dateStart>2019-02-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Stare Ouhnice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3094</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0003</typ:numberRequested>
+          </con:number>
+          <con:text>JEŽ - kamenické práce</con:text>
+          <con:partnerIdentity>
+            <typ:id>3431</typ:id>
+            <typ:address>
+              <typ:company>JEŽ - kamenické práce, spol. s r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Kaprova 42/14</typ:street>
+              <typ:zip>11000</typ:zip>
+              <typ:ico>28228316</typ:ico>
+              <typ:dic>CZ28228316</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3095</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0004</typ:numberRequested>
+          </con:number>
+          <con:text>KLIMAMONT KOPELENT - škola Psáry</con:text>
+          <con:partnerIdentity>
+            <typ:id>3450</typ:id>
+            <typ:address>
+              <typ:company>KLIMAMONT KOPELENT, s.r.o.</typ:company>
+              <typ:city>&#200;ernošice</typ:city>
+              <typ:street>Havlí&#232;kova 915</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>49823388</typ:ico>
+              <typ:dic>CZ49823388</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3096</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0005</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-03-01</con:datePlanStart>
+          <con:dateStart>2019-03-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Bavoryne</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3097</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0006</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-04-01</con:datePlanStart>
+          <con:dateStart>2019-04-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Veprik, Nova Ves</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3098</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0007</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-04-01</con:datePlanStart>
+          <con:dateDelivery>2019-04-01</con:dateDelivery>
+          <con:text>STAVITELSTVÍ REHOR -  Berunice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3099</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0008</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-09-01</con:datePlanStart>
+          <con:text>provedeni vyplat v kancelari - za hotove</con:text>
+          <con:partnerIdentity>
+            <typ:id>3413</typ:id>
+            <typ:address>
+              <typ:company>ZMAN - KESEF s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>U milosrdných 849/6</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>27169731</typ:ico>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>admkesef</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3100</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0009</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-05-01</con:datePlanStart>
+          <con:dateStart>2019-05-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -Brezova</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3101</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0010</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-09-01</con:datePlanStart>
+          <con:dateStart>2019-09-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Ceský Brod</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>3102</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0011</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-09-01</con:datePlanStart>
+          <con:dateStart>2019-09-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Velké Vyklaky</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>4101</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0012</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-10-01</con:datePlanStart>
+          <con:dateStart>2019-10-01</con:dateStart>
+          <con:text>ALBA CR spol. s r.o. - akce: Ostrava</con:text>
+          <con:partnerIdentity>
+            <typ:id>133</typ:id>
+            <typ:address>
+              <typ:company>ALBA CR spol. s r.o.</typ:company>
+              <typ:city>Škvorec</typ:city>
+              <typ:street>Masarykovo námestí 26</typ:street>
+              <typ:zip>250 83</typ:zip>
+              <typ:ico>62909134</typ:ico>
+              <typ:dic>CZ62909134</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>4102</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0013</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-11-01</con:datePlanStart>
+          <con:dateStart>2019-11-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Kluky</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>4103</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0014</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-11-01</con:datePlanStart>
+          <con:dateStart>2019-11-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Vodranty</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>4104</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0015</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-12-01</con:datePlanStart>
+          <con:dateStart>2019-12-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR -  Liblice</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>4105</con:id>
+          <con:number>
+            <typ:id>576</typ:id>
+            <typ:ids>19Zak</typ:ids>
+            <typ:numberRequested>19Zak0016</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2019-11-01</con:datePlanStart>
+          <con:dateStart>2019-11-01</con:dateStart>
+          <con:text>Strabag</con:text>
+          <con:partnerIdentity>
+            <typ:id>4485</typ:id>
+            <typ:address>
+              <typ:company>STRABAG a.s.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Kacírkova 982/4</typ:street>
+              <typ:zip>158 00</typ:zip>
+              <typ:ico>60838744</typ:ico>
+              <typ:dic>CZ60838744</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>4106</con:id>
+          <con:number>
+            <typ:id>635</typ:id>
+            <typ:ids>20Zak</typ:ids>
+            <typ:numberRequested>20Zak0001</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2020-02-01</con:datePlanStart>
+          <con:dateStart>2020-02-01</con:dateStart>
+          <con:text>STAVITELSTVÍ REHOR - Vrbová Lhota</con:text>
+          <con:partnerIdentity>
+            <typ:id>210</typ:id>
+            <typ:address>
+              <typ:company>STAVITELSTVÍ REHOR, s.r.o.</typ:company>
+              <typ:city>Cernošice</typ:city>
+              <typ:street>Dr. Janského 411</typ:street>
+              <typ:zip>25228</typ:zip>
+              <typ:ico>25075543</typ:ico>
+              <typ:dic>CZ25075543</typ:dic>
+              <typ:country>
+                <typ:id>42</typ:id>
+                <typ:ids>CZ</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company/>
+              <typ:city/>
+              <typ:street/>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Tomchak Mykhaylo</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>3 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+    </lCon:listContract>
+  </rsp:responsePackItem>
+</rsp:responsePack>

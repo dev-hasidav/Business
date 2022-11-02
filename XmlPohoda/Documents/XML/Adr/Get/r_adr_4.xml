@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<rsp:responsePack id="001" xmlns:bnk="http://www.stormware.cz/schema/version_2/bank.xsd" xmlns:act="http://www.stormware.cz/schema/version_2/accountancy.xsd" xmlns:prn="http://www.stormware.cz/schema/version_2/print.xsd" xmlns:sup="http://www.stormware.cz/schema/version_2/supplier.xsd" xmlns:idp="http://www.stormware.cz/schema/version_2/individualPrice.xsd" xmlns:str="http://www.stormware.cz/schema/version_2/storage.xsd" xmlns:ipm="http://www.stormware.cz/schema/version_2/intParam.xsd" xmlns:ctg="http://www.stormware.cz/schema/version_2/category.xsd" xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd" xmlns:prm="http://www.stormware.cz/schema/version_2/parameter.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" xmlns:pro="http://www.stormware.cz/schema/version_2/prodejka.xsd" xmlns:vyr="http://www.stormware.cz/schema/version_2/vyroba.xsd" xmlns:pre="http://www.stormware.cz/schema/version_2/prevodka.xsd" xmlns:bal="http://www.stormware.cz/schema/version_2/balance.xsd" xmlns:pri="http://www.stormware.cz/schema/version_2/prijemka.xsd" xmlns:vyd="http://www.stormware.cz/schema/version_2/vydejka.xsd" xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd" xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" xmlns:ord="http://www.stormware.cz/schema/version_2/order.xsd" xmlns:stk="http://www.stormware.cz/schema/version_2/stock.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:lStk="http://www.stormware.cz/schema/version_2/list_stock.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:rdc="http://www.stormware.cz/schema/version_2/documentresponse.xsd" xmlns:rsp="http://www.stormware.cz/schema/version_2/response.xsd" programVersion="10400.133 (13.5.2013)" note="" state="ok" version="2.0">
+  <rsp:responsePackItem id="01" state="ok" version="2.0">
+    <lAdb:listAddressBook state="ok" version="2.0" dateValidFrom="2013-05-13" dateTimeStamp="2013-05-13T15:22:37">
+      <lAdb:addressbook version="2.0">
+        <adb:addressbookHeader>
+          <adb:id>25</adb:id>
+          <adb:identity>
+            <typ:address>
+              <typ:company>ZET s.r.o.</typ:company>
+              <typ:division/>
+              <typ:name>Ondřej Maršín</typ:name>
+              <typ:city>Praha 3</typ:city>
+              <typ:street>Komenského 78</typ:street>
+              <typ:zip>130 00</typ:zip>
+              <typ:ico>56541223</typ:ico>
+              <typ:dic>CZ56541223</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:id>3</typ:id>
+              <typ:company>ZET s.r.o.</typ:company>
+              <typ:name>Tomáš Honzík</typ:name>
+              <typ:city>Jihlava 1</typ:city>
+              <typ:street>Průmyslová</typ:street>
+              <typ:defaultShipAddress>true</typ:defaultShipAddress>
+              <typ:zip>586 01</typ:zip>
+            </typ:shipToAddress>
+          </adb:identity>
+          <adb:region>Praha</adb:region>
+          <adb:phone>223 456 852</adb:phone>
+          <adb:mobil>602 236 445</adb:mobil>
+          <adb:fax>223 456 853</adb:fax>
+          <adb:email>ondrej.marsik@telecom.cz</adb:email>
+          <adb:web>www.telecom.cz/zet</adb:web>
+          <adb:adGroup>Obchod,Zákazník</adb:adGroup>
+          <adb:adKey>PF</adb:adKey>
+          <adb:number>
+            <typ:id>48</typ:id>
+            <typ:ids>13AD</typ:ids>
+            <typ:numberRequested>13AD00022</typ:numberRequested>
+          </adb:number>
+          <adb:p1>true</adb:p1>
+          <adb:p2>true</adb:p2>
+          <adb:p3>false</adb:p3>
+          <adb:p4>false</adb:p4>
+          <adb:p5>false</adb:p5>
+          <adb:p6>false</adb:p6>
+          <adb:accountingReceivedInvoice>
+            <typ:id>23</typ:id>
+            <typ:ids>2Fp</typ:ids>
+          </adb:accountingReceivedInvoice>
+          <adb:accountingIssuedInvoice>
+            <typ:id>15</typ:id>
+            <typ:ids>2Fv</typ:ids>
+          </adb:accountingIssuedInvoice>
+          <adb:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:surname>Adámek</typ:surname>
+            <typ:name>Jiří</typ:name>
+            <typ:degree/>
+          </adb:responsiblePerson>
+        </adb:addressbookHeader>
+        <adb:addressbookAccount>
+          <adb:accountItem>
+            <adb:id>15</adb:id>
+            <adb:accountNumber>1071743463</adb:accountNumber>
+            <adb:symSpec/>
+            <adb:bankCode>2700</adb:bankCode>
+            <adb:defaultAccount>true</adb:defaultAccount>
+          </adb:accountItem>
+        </adb:addressbookAccount>
+      </lAdb:addressbook>
+    </lAdb:listAddressBook>
+  </rsp:responsePackItem>
+</rsp:responsePack>

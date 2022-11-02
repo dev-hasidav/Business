@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" 
+              xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              note="Požadavek na export pokladních dokladů" application="StwTest" ico="12345678" id="001">
+  <dat:dataPackItem version="2.0" id="pok_01">
+    <lst:listVoucherRequest version="2.0" voucherVersion="2.0">
+      <lst:requestVoucher>
+        <ftr:filter>
+          <ftr:selectedCompanys>
+            <ftr:company>A-STORES s.r.o.</ftr:company>
+          </ftr:selectedCompanys>
+        </ftr:filter>
+      </lst:requestVoucher>
+    </lst:listVoucherRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

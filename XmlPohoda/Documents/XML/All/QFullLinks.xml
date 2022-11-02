@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0"
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+              xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd"
+              note="Import FA" application="StwTest" ico="000000000" id="dp-203">
+  <dat:dataPackItem version="2.0" id="pk-203">
+    <inv:invoice version="2.0">
+      <inv:links>
+        <typ:link>
+          <typ:sourceAgenda>receivedOrder</typ:sourceAgenda>
+          <typ:sourceDocument>
+            <typ:number>202100166</typ:number>
+          </typ:sourceDocument>
+        </typ:link>
+      </inv:links>
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:text>receivedOrder(ObjP)  issuedInvoice(FV). 202100166 </inv:text>
+      </inv:invoiceHeader>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

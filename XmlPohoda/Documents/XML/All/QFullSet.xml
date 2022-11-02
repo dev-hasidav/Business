@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0"
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+              xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd"
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+              note="Import FA" application="StwTest" ico="000000000" id="fa-001">
+  <dat:dataPackItem version="2.0" id="fa-001">
+    <!-- faktura bez polozky a bez adresy -->
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:date>2020-05-01</inv:date>
+        <inv:accounting>
+          <typ:ids>3Fv</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:classificationVATType>inland</typ:classificationVATType>
+        </inv:classificationVAT>
+        <inv:text>--- : --- 1 -- Test FV. Faktura za zboží bez adresy</inv:text>
+        <inv:paymentType>
+          <typ:paymentType>draft</typ:paymentType>
+        </inv:paymentType>
+        <inv:account>
+          <typ:ids>KB</typ:ids>
+        </inv:account>
+        <inv:note>Import XML.</inv:note>
+        <inv:intNote>--- : --- Test FV.</inv:intNote>
+      </inv:invoiceHeader>
+      <inv:invoiceSummary>
+        <inv:roundingDocument>math2one</inv:roundingDocument>
+        <inv:homeCurrency>
+          <typ:priceNone>30333</typ:priceNone>
+          <typ:priceLow>60000</typ:priceLow>
+          <typ:priceHighSum>5555</typ:priceHighSum>
+          <typ:round>
+            <typ:priceRound>0</typ:priceRound>
+          </typ:round>
+        </inv:homeCurrency>
+      </inv:invoiceSummary>
+    </inv:invoice>
+  </dat:dataPackItem>
+  <dat:dataPackItem version="2.0" id="fa-001">
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>receivedInvoice</inv:invoiceType>
+        <inv:text>--- : --- 2 -- Test FP. Faktura za zboží bez adresy</inv:text>
+        <inv:note>Import XML.</inv:note>
+        <inv:intNote>. : Test FV.</inv:intNote>
+      </inv:invoiceHeader>
+    </inv:invoice>
+  </dat:dataPackItem>
+  <dat:dataPackItem version="2.0" id="ho-001">
+    <vch:voucher version="2.0">
+      <vch:voucherHeader>
+        <vch:voucherType>expense</vch:voucherType>
+        <vch:cashAccount>
+          <typ:ids>HP</typ:ids>
+        </vch:cashAccount>
+        <vch:date>2020-06-01</vch:date>
+        <vch:datePayment>2020-02-14</vch:datePayment>
+        <vch:dateTax>2018-06-03</vch:dateTax>
+        <vch:classificationVAT>
+          <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+        </vch:classificationVAT>
+        <vch:text>--- : --- 1 -- Záloha na pracovní cestu. CP č. 25CPT001</vch:text>
+        <!--adresa bez vazby na program POHODA-->
+        <vch:partnerIdentity>
+          <typ:address>
+            <typ:name>Janáček Petr</typ:name>
+            <typ:city>Jihlava 1</typ:city>
+            <typ:street>Jiráskova 26</typ:street>
+            <typ:zip>58601</typ:zip>
+          </typ:address>
+        </vch:partnerIdentity>
+        <vch:centre>
+          <typ:ids>Jihlava</typ:ids>
+        </vch:centre>
+        <vch:note>načteno z XML.</vch:note>
+        <vch:intNote>Import Pokladního dokladu bez položek.</vch:intNote>
+      </vch:voucherHeader>
+      <vch:voucherSummary>
+        <vch:homeCurrency>
+          <typ:priceNone>77700</typ:priceNone>
+        </vch:homeCurrency>
+      </vch:voucherSummary>
+    </vch:voucher>
+  </dat:dataPackItem>
+</dat:dataPack>

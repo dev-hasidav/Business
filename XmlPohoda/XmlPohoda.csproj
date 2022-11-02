@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26478BC3-929D-4F60-8565-EC0A7786CC13}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business.Pohoda.Xml</RootNamespace>
+    <AssemblyName>XBsnsrvsync1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atributes\NumClass.cs" />
+    <Compile Include="Atributes\NumFunction.cs" />
+    <Compile Include="Documents\XML\Adr\Get\Class1.cs" />
+    <Compile Include="FilterGet.cs" />
+    <Compile Include="MyFormating.cs" />
+    <Compile Include="Packet\Account.cs" />
+    <Compile Include="Packet\AccountItem.cs" />
+    <Compile Include="Packet\AccountForInvoicing.cs" />
+    <Compile Include="Packet\Address.cs" />
+    <Compile Include="Packet\AddressbookResponse.cs" />
+    <Compile Include="Packet\AddressCountry.cs" />
+    <Compile Include="Packet\Bank.cs" />
+    <Compile Include="Packet\BankDetail.cs" />
+    <Compile Include="Packet\BankForeignCurrency.cs" />
+    <Compile Include="Packet\BankHeader.cs" />
+    <Compile Include="Packet\BankHeaderAccount.cs" />
+    <Compile Include="Packet\BankHeaderAccounting.cs" />
+    <Compile Include="Packet\BankHeaderPartnerIdentity.cs" />
+    <Compile Include="Packet\BankHomeCurrency.cs" />
+    <Compile Include="Packet\BankItem.cs" />
+    <Compile Include="Packet\BankSummary.cs" />
+    <Compile Include="Packet\ContractResponse.cs" />
+    <Compile Include="Packet\Detail.cs" />
+    <Compile Include="Packet\Eet.cs" />
+    <Compile Include="Packet\ExtId.cs" />
+    <Compile Include="Packet\ImportDetails.cs" />
+    <Compile Include="Packet\Invoice.cs" />
+    <Compile Include="Packet\InvoiceDetail.cs" />
+    <Compile Include="Packet\InvoiceHeader.cs" />
+    <Compile Include="Packet\InvoiceItem.cs" />
+    <Compile Include="Packet\InvoiceItemStockItem.cs" />
+    <Compile Include="Packet\InvoiceResponse.cs" />
+    <Compile Include="Packet\InvoiceSummary.cs" />
+    <Compile Include="Packet\Liquidation.cs" />
+    <Compile Include="Packet\ListInvoice.cs" />
+    <Compile Include="Packet\PrintResponse.cs" />
+    <Compile Include="Packet\ProducedDetails.cs" />
+    <Compile Include="Packet\SummaryHomeCurrency.cs" />
+    <Compile Include="Packet\Contract.cs" />
+    <Compile Include="Packet\ContractDesc.cs" />
+    <Compile Include="Packet\ContractDescNumber.cs" />
+    <Compile Include="Packet\ContractDescPartnerIdentity.cs" />
+    <Compile Include="Packet\Establishment.cs" />
+    <Compile Include="Packet\Identity.cs" />
+    <Compile Include="Packet\Ids.cs" />
+    <Compile Include="Packet\AccountingReceivedInvoice.cs" />
+    <Compile Include="Packet\Activity.cs" />
+    <Compile Include="Packet\Addressbook.cs" />
+    <Compile Include="Packet\AddressBookHeader.cs" />
+    <Compile Include="Packet\Centre.cs" />
+    <Compile Include="Packet\ClassificationVATReceivedInvoice.cs" />
+    <Compile Include="Packet\ListAddressBook.cs" />
+    <Compile Include="Packet\listBank.cs" />
+    <Compile Include="Packet\ListContract.cs" />
+    <Compile Include="Packet\ListVoucher.cs" />
+    <Compile Include="Packet\MyIdentity.cs" />
+    <Compile Include="Packet\Number.cs" />
+    <Compile Include="Packet\PartnerIdentity.cs" />
+    <Compile Include="Packet\PaymentAccount.cs" />
+    <Compile Include="Packet\PaymentType.cs" />
+    <Compile Include="Packet\ResponsePack.cs" />
+    <Compile Include="Packet\ResponsePackItem.cs" />
+    <Compile Include="Packet\ResponsiblePerson.cs" />
+    <Compile Include="Packet\Round.cs" />
+    <Compile Include="Packet\ShipToAddress.cs" />
+    <Compile Include="Packet\ShipToAddressCountry.cs" />
+    <Compile Include="Packet\StatementNumber.cs" />
+    <Compile Include="Packet\Test\TempGet.cs" />
+    <Compile Include="Packet\Voucher.cs" />
+    <Compile Include="Packet\VoucherDetail.cs" />
+    <Compile Include="Packet\VoucherHeader.cs" />
+    <Compile Include="Packet\HomeCurrency.cs" />
+    <Compile Include="Packet\VoucherItem.cs" />
+    <Compile Include="Packet\VoucherResponse.cs" />
+    <Compile Include="Packet\VoucherSummary.cs" />
+    <Compile Include="Packet\Test\TempSet.cs" />
+    <Compile Include="ReturnDocXml.cs" />
+    <Compile Include="Xml\DataPack.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="Enums\TypeDocument.cs" />
+    <Compile Include="Models\HeadDataPack.cs" />
+    <Compile Include="Xml\AbsDocument.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Xml\exAddressBook.cs" />
+    <Compile Include="Xml\exZakazka.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documents\PrintPDF\pohoda.ini" />
+    <None Include="Documents\PrintPDF\pohoda_tocka_bat" />
+    <None Include="Documents\test.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\XML\FvResponse.zip" />
+    <None Include="Documents\XML\All\pohoda.bat" />
+    <None Include="Documents\XML\All\pohoda.ini" />
+    <None Include="Documents\XML\Response.zip" />
+    <None Include="Documents\XML\XML_In.7z" />
+    <None Include="Documents\XML\XML_In\pohoda.ini" />
+    <None Include="Documents\Xsd\accountancy.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\accountingunit.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\actionPrice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\addressbook.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\balance.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\bank.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\bankAccount.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\cashRegister.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\category.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\contract.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\data-package.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\data.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\documentresponse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\enquiry.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\filter.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\groupStocks.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\individualPrice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\intDoc.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\intParam.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\inventoryLists.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\invoice.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\list.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\list_addBook.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\list_contract.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\list_stock.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\mKasa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\numericalSeries.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\offer.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\order.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\parameter.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\payment.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\prevodka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\prijemka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\print.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\prodejka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\response.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\sendEET.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\stock.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\storage.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\store.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\supplier.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\type.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\voucher.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\vydejka.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd\vyroba.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd_1\contract.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Documents\Xsd_1\contract_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\AllResponse.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\PrintPDF\print-pohoda-doc.xml" />
+    <Content Include="Documents\XML\Adr\Get\adresy_01_v2.0.xml" />
+    <Content Include="Documents\XML\Adr\Get\g_adr_1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Get\g_adr_2.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Get\g_adr_3.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Get\g_adr_4.xml" />
+    <Content Include="Documents\XML\Adr\Get\r_adr_1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Get\r_adr_2.xml" />
+    <Content Include="Documents\XML\Adr\Get\r_adr_3.xml" />
+    <Content Include="Documents\XML\Adr\Get\r_adr_4.xml" />
+    <Content Include="Documents\XML\Adr\Set\r_adr_1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Set\r_adr_2.xml" />
+    <Content Include="Documents\XML\Adr\Set\r_adr_5.xml" />
+    <Content Include="Documents\XML\Adr\Set\r_adr_6.xml" />
+    <Content Include="Documents\XML\Adr\Set\r_adr_7.xml" />
+    <Content Include="Documents\XML\Adr\Set\r_adr_8.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Set\s_adr_1.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Set\s_adr_2.xml" />
+    <Content Include="Documents\XML\Adr\Set\s_adr_3.xml" />
+    <Content Include="Documents\XML\Adr\Set\s_adr_4.xml" />
+    <Content Include="Documents\XML\Adr\Set\s_adr_5.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Set\s_adr_6.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\Adr\Set\s_adr_7.xml" />
+    <Content Include="Documents\XML\Adr\Set\s_adr_8.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\All\QFullLinks.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\All\QFullSet.xml" />
+    <Content Include="Documents\XML\All\RFullGet.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\All\RFullLinks.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\All\RFullSet.xml" />
+    <Content Include="Documents\XML\BV\QBvAll.xml" />
+    <Content Include="Documents\XML\BV\QBvDate.xml" />
+    <Content Include="Documents\XML\BV\QBvFirma.xml" />
+    <Content Include="Documents\XML\BV\QBvNewOrUpdate.xml" />
+    <Content Include="Documents\XML\BV\R_BvAll.xml" />
+    <Content Include="Documents\XML\EditRequest.xml" />
+    <Content Include="Documents\XML\FvResponse\R_FvAll.xml" />
+    <Content Include="Documents\XML\FvResponse\R_FvDate.xml" />
+    <Content Include="Documents\XML\FvResponse\R_FvIcoOrFirma.xml" />
+    <Content Include="Documents\XML\FvResponse\R_FvNewOrUpdate.xml" />
+    <Content Include="Documents\XML\FV\Get\QFvAll.xml" />
+    <Content Include="Documents\XML\FV\Get\QFvDate.xml" />
+    <Content Include="Documents\XML\FV\Get\QFvIcoOrFirma.xml" />
+    <Content Include="Documents\XML\FV\Get\QFvNewOrUpdate.xml" />
+    <Content Include="Documents\XML\FV\Get\R_FvAll.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\FV\Get\R_FvDate.xml" />
+    <Content Include="Documents\XML\FV\Get\R_FvIcoOrFirma.xml" />
+    <Content Include="Documents\XML\FV\Get\R_FvNewOrUpdate.xml" />
+    <Content Include="Documents\XML\FV\Get\R_Fv_14419.xml" />
+    <Content Include="Documents\XML\FV\Set\r_FV_13.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV1.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV2.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV3.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV4.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV5.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV6.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV7.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV8.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV_11.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV_12.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV_13.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV_51.xml" />
+    <Content Include="Documents\XML\FV\Set\s_FV_52.xml" />
+    <Content Include="Documents\XML\FV\Set\s_GenFV_11.xml" />
+    <Content Include="Documents\XML\FV\Set\s_GenFV_12.xml" />
+    <Content Include="Documents\XML\HO\Get\QHoAll.xml" />
+    <Content Include="Documents\XML\HO\Get\QHoDate.xml" />
+    <Content Include="Documents\XML\HO\Get\QHoFirma.xml" />
+    <Content Include="Documents\XML\HO\Get\QHoNewOrUpdate.xml" />
+    <Content Include="Documents\XML\HO\Get\R_HoAll.xml" />
+    <Content Include="Documents\XML\HO\Set\Q_VD.xml" />
+    <Content Include="Documents\XML\MyXml\FvToFp.xml" />
+    <Content Include="Documents\XML\MyXml\GetAddresar.xml" />
+    <Content Include="Documents\XML\MyXml\ObjToFv.xml" />
+    <Content Include="Documents\XML\MyXml\UpdateAdressar.xml" />
+    <Content Include="Documents\XML\MyXml\WriteFvPolozky.xml" />
+    <Content Include="Documents\XML\Nab\QWriteNab.xml" />
+    <Content Include="Documents\XML\ObjResponse\F_ObjIssAll.xml" />
+    <Content Include="Documents\XML\ObjResponse\F_ObjIssDate.xml" />
+    <Content Include="Documents\XML\ObjResponse\F_ObjIssIco.xml" />
+    <Content Include="Documents\XML\ObjResponse\F_ObjRecAll.xml" />
+    <Content Include="Documents\XML\ObjResponse\F_ObjRecNewOrUpdate.xml" />
+    <Content Include="Documents\XML\Obj\PackDoc.xml" />
+    <Content Include="Documents\XML\Obj\QObjIssAll.xml" />
+    <Content Include="Documents\XML\Obj\QObjIssDate.xml" />
+    <Content Include="Documents\XML\Obj\QObjIssIco.xml" />
+    <Content Include="Documents\XML\Obj\QObjRecAll.xml" />
+    <Content Include="Documents\XML\Obj\QObjRecNewOrUpdate.xml" />
+    <Content Include="Documents\XML\Obj\QWriteObj1.xml" />
+    <Content Include="Documents\XML\Obj\QWriteObj2.xml" />
+    <Content Include="Documents\XML\Obj\QWriteObj3.xml" />
+    <Content Include="Documents\XML\Obj\R_ObjIssAll.xml" />
+    <Content Include="Documents\XML\Obj\R_ObjIssDate.xml" />
+    <Content Include="Documents\XML\Obj\R_ObjIssIco.xml" />
+    <Content Include="Documents\XML\Obj\R_ObjRecAll.xml" />
+    <Content Include="Documents\XML\Obj\R_ObjRecNewOrUpdate.xml" />
+    <Content Include="Documents\XML\pINT\QOintAll.xml" />
+    <Content Include="Documents\XML\pINT\QPintDate.xml" />
+    <Content Include="Documents\XML\pINT\QPintFirma.xml" />
+    <Content Include="Documents\XML\pINT\QPintNewOrUpdate.xml" />
+    <Content Include="Documents\XML\pINT\QSet1.xml" />
+    <Content Include="Documents\XML\pINT\QSet2.xml" />
+    <Content Include="Documents\XML\pINT\QSet3.xml" />
+    <Content Include="Documents\XML\pINT\RSet1.xml" />
+    <Content Include="Documents\XML\pINT\RSet2.xml" />
+    <Content Include="Documents\XML\pINT\RSet3.xml" />
+    <Content Include="Documents\XML\pINT\R_PintAll.xml" />
+    <Content Include="Documents\XML\PolMene.xml" />
+    <Content Include="Documents\XML\Pop\QWritePop.xml" />
+    <Content Include="Documents\XML\Prinf\QPrintPdf.xml" />
+    <Content Include="Documents\XML\Prinf\QPrintPDFPacket.xml" />
+    <Content Include="Documents\XML\Prinf\RPrintPdf.xml" />
+    <Content Include="Documents\XML\Prinf\RPrintPDFPacket.xml" />
+    <Content Include="Documents\XML\All\QFullGet.xml" />
+    <Content Include="Documents\XML\TempXML.xml" />
+    <Content Include="Documents\XML\TempXML1.xml" />
+    <Content Include="Documents\XML\TempXMLRet.xml" />
+    <Content Include="Documents\XML\XML_In\pohoda.txt" />
+    <Content Include="Documents\XML\ZAK\QWriteZak.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\ZAK\QZakAll.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\ZAK\QZakListGet.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\ZAK\RZakAll.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Documents\XML\ZAK\R_ZakAll.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

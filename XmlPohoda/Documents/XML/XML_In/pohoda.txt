@@ -1,0 +1,2 @@
+rem <POHODA.exe> /XML Username password <cesta-k-ini-souboru>
+P:\POHODA_E1_Soft\Pohoda.exe /XML "pohoda" "Pohoda+15426378" P:\TESTTTT\XML_In\pohoda.ini

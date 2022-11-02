@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dat:dataPack xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" version="2.0" note="Create new PD 18HV" application="QuerySrv" ico="28890060" id="Pack1">
+  <dat:dataPackItem version="2.0" id="PackItem1">
+    <vch:voucher version="2.0">
+      <vch:voucherHeader>
+        <vch:voucherType>expense</vch:voucherType>
+        <vch:number>
+          <typ:ids>18HV</typ:ids>
+        </vch:number>
+        <vch:cashAccount>
+          <typ:ids>HP</typ:ids>
+        </vch:cashAccount>
+        <vch:date>2018-07-12</vch:date>
+        <vch:accounting>
+          <typ:id>33</typ:id>
+          <typ:ids>7Pv</typ:ids>
+        </vch:accounting>
+        <vch:classificationVAT>
+          <typ:ids>nonSubsume</typ:ids>
+        </vch:classificationVAT>
+        <vch:text>Create date: 12-VII-2018(�ervence) 22:25</vch:text>
+        <vch:partnerIdentity>
+          <typ:address />
+        </vch:partnerIdentity>
+      </vch:voucherHeader>
+      <vch:voucherSummary>
+        <vch:roundingVAT>noneEveryRate</vch:roundingVAT>
+        <vch:foreignCurrency>
+          <typ:currency>
+            <typ:ids>GBP</typ:ids>
+          </typ:currency>
+          <typ:priceSum>234321</typ:priceSum>
+        </vch:foreignCurrency>
+      </vch:voucherSummary>
+    </vch:voucher>
+  </dat:dataPackItem>
+</dat:dataPack>

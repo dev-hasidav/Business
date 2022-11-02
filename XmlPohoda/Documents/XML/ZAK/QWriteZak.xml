@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+  note="Import Zakázky" application="StwTest" ico="12345678" id="ZAK001">
+  <dat:dataPackItem version="2.0" id="001">
+    <con:contract version="2.0">
+      <con:contractDesc>
+        <con:text>zakazka15</con:text>
+        <con:responsiblePerson>
+          <typ:ids>Z0005</typ:ids>
+        </con:responsiblePerson>
+      </con:contractDesc>
+    </con:contract>
+  </dat:dataPackItem>
+</dat:dataPack>

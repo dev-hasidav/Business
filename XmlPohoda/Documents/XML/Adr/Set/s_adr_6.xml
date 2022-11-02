@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="ad004" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Smazání adresy" version="2.0" application="StwTest" ico="12345678">
+  <dat:dataPackItem id="AD001" version="2.0">
+    <adb:addressbook version="2.0">
+      <adb:actionType>
+        <!--smazani Adresy-->
+        <adb:delete>
+          <!--filtr pro vyhledani zaznamu-->
+          <ftr:filter>
+            <ftr:company>STORMWARE s.r.o.</ftr:company>
+          </ftr:filter>
+        </adb:delete>
+      </adb:actionType>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

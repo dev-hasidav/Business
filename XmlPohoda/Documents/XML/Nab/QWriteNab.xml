@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Import nabídky" application="StwTest" ico="12345678" id="na001">
+  <dat:dataPackItem version="2.0" id="NAB001">
+    <!-- Import nabídky, textová a skladová položka-->
+    <ofr:offer version="2.0">
+      <ofr:offerHeader>
+        <ofr:date>2018-10-14</ofr:date>
+        <ofr:text>Nabídka na zboží</ofr:text>
+        <!--vazby na adresu z programu POHODA-->
+        <ofr:partnerIdentity>
+          <typ:id>25</typ:id>
+        </ofr:partnerIdentity>
+        <ofr:priceLevel>
+          <typ:ids>Sleva 1</typ:ids>
+        </ofr:priceLevel>
+        <ofr:note>Načteno z XML.</ofr:note>
+        <ofr:intNote>Import nabídky s položkami.</ofr:intNote>
+      </ofr:offerHeader>
+      <ofr:offerDetail>
+        <!--textova polozka-->
+        <ofr:offerItem>
+          <ofr:text>Sestava PC</ofr:text>
+          <ofr:quantity>1</ofr:quantity>
+          <ofr:rateVAT>high</ofr:rateVAT>
+          <ofr:homeCurrency>
+            <typ:unitPrice>198</typ:unitPrice>
+          </ofr:homeCurrency>
+        </ofr:offerItem>
+        <!--skladova polozka-->
+        <ofr:offerItem>
+          <ofr:text>Stůl montovaný</ofr:text>
+          <ofr:quantity>1</ofr:quantity>
+          <ofr:rateVAT>high</ofr:rateVAT>
+          <ofr:homeCurrency>
+            <typ:unitPrice>198</typ:unitPrice>
+          </ofr:homeCurrency>
+          <ofr:stockItem>
+            <typ:stockItem>
+              <typ:ids>STM</typ:ids>
+            </typ:stockItem>
+          </ofr:stockItem>
+        </ofr:offerItem>
+      </ofr:offerDetail>
+      <ofr:offerSummary>
+        <ofr:roundingDocument>math2one</ofr:roundingDocument>
+      </ofr:offerSummary>
+    </ofr:offer>
+  </dat:dataPackItem>
+</dat:dataPack>

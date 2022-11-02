@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="ad004" 
+              
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" 
+              xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              
+       note="Import adres" version="2.0" application="StwTest" ico="12345678">
+  <dat:dataPackItem id="AD001" version="2.0">
+    <adb:addressbook version="2.0">
+      <adb:actionType>
+        <!--Import noveho zaznamu.-->
+        <adb:add>
+          <!--Kontrola duplicity existujiciho zaznamu.Pokud bude nalezen alespon jeden zaznam, import nebude proveden.-->
+          <ftr:filter>
+            <ftr:company>TESTA s.r.o.</ftr:company>
+          </ftr:filter>
+        </adb:add>
+      </adb:actionType>
+      <adb:addressbookHeader>
+        <adb:identity>
+          <typ:address>
+            <typ:company>TESTA s.r.o.</typ:company>
+            <typ:division>Testovací oddělení</typ:division>
+            <typ:name>Jan Benda</typ:name>
+            <typ:city>Jihlava</typ:city>
+            <typ:street>Zahradní 16</typ:street>
+            <typ:zip>56801</typ:zip>
+            <typ:ico>22446688</typ:ico>
+            <typ:dic>CZ22446688</typ:dic>
+          </typ:address>
+        </adb:identity>
+        <adb:region>Vysočina</adb:region>
+        <adb:phone>567321982</adb:phone>
+        <adb:mobil>603888980</adb:mobil>
+        <adb:fax>567321983</adb:fax>
+        <adb:email>10kb@seznam.cz</adb:email>
+        <adb:web>www.seznam.cz</adb:web>
+        <adb:adGroup>S1, S2</adb:adGroup>
+        <adb:adKey>K1, K2</adb:adKey>
+        <adb:priceIDS>Prodejní</adb:priceIDS>
+        <adb:maturity>20</adb:maturity>
+        <adb:agreement>smlouva c.1</adb:agreement>
+        <adb:ost1>aaa</adb:ost1>
+        <adb:ost2>bbb</adb:ost2>
+        <adb:p1>true</adb:p1>
+        <adb:p6>true</adb:p6>
+        <adb:message>Test message 1.</adb:message>
+        <adb:note>Načteno z XML</adb:note>
+        <adb:centre>
+          <typ:ids>BRNO</typ:ids>
+        </adb:centre>
+        <adb:activity>
+          <typ:ids>NÁBYTEK</typ:ids>
+        </adb:activity>
+        <adb:contract>
+          <typ:ids>23Zak00002</typ:ids>
+        </adb:contract>
+      </adb:addressbookHeader>
+      <adb:addressbookAccount>
+        <adb:accountItem>
+          <adb:accountNumber>202200000</adb:accountNumber>
+          <adb:bankCode>0800</adb:bankCode>
+          <adb:defaultAccount>true</adb:defaultAccount>
+        </adb:accountItem>
+      </adb:addressbookAccount>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

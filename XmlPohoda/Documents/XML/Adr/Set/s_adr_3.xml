@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="ad003" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Pokus importu AD" version="2.0" application="test-AD" ico="12345678">
+  <dat:dataPackItem id="AD001" version="2.0">
+    <adb:addressbook version="2.0">
+      <adb:addressbookHeader>
+        <adb:identity>
+          <typ:address>
+            <!--pro pouziti specialinich znaku je nutne pouzit sekci [CDATA[]]-->
+            <typ:company>
+              <![CDATA[Doprava Otec & syn Jelínek]]>
+            </typ:company>
+            <typ:division>Dopravní oddělení</typ:division>
+            <typ:name>Vlastimil Doubrava</typ:name>
+            <typ:city>Jihlava</typ:city>
+            <typ:street>Zahradní 16</typ:street>
+            <typ:zip>56801</typ:zip>
+            <typ:ico>22222222</typ:ico>
+            <typ:dic>330-11111</typ:dic>
+          </typ:address>
+          <typ:shipToAddress>
+            <typ:name>Doubrava Vlastimil</typ:name>
+            <typ:city>Třebíč</typ:city>
+            <typ:street>Nová 23</typ:street>
+          </typ:shipToAddress>
+        </adb:identity>
+        <adb:region>Vysočina</adb:region>
+        <adb:phone>567321982</adb:phone>
+        <adb:mobil>603888980</adb:mobil>
+        <adb:fax>567321983</adb:fax>
+        <adb:email>doubrava@seznam.cz</adb:email>
+        <adb:web>www.doubrava.cz</adb:web>
+        <adb:adGroup>S1, S2</adb:adGroup>
+        <adb:adKey>K1, K2</adb:adKey>
+        <adb:credit>0</adb:credit>
+        <adb:priceIDS>Prodejní</adb:priceIDS>
+        <adb:maturity>20</adb:maturity>
+        <adb:ost1>Z00-1</adb:ost1>
+        <adb:ost2>100Kč</adb:ost2>
+        <adb:p1>true</adb:p1>
+        <adb:p6>true</adb:p6>
+        <adb:message>Test message 1.</adb:message>
+        <adb:note>Načteno z XML</adb:note>
+        <adb:intNote>Adresa obsahující speciálni znak.</adb:intNote>
+      </adb:addressbookHeader>
+      <adb:addressbookAccount>
+        <adb:accountItem>
+          <adb:accountNumber>19-2238000237</adb:accountNumber>
+          <adb:symSpec>4321</adb:symSpec>
+          <adb:bankCode>0100</adb:bankCode>
+          <adb:defaultAccount>true</adb:defaultAccount>
+        </adb:accountItem>
+      </adb:addressbookAccount>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

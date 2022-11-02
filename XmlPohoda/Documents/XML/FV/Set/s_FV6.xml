@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              note="Import FA" application="StwTest" ico="12345678" id="fa004">
+  <dat:dataPackItem version="2.0" id="ExtID001">
+    <!-- faktura s vazbou adresy přes extId -->
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>receivedInvoice</inv:invoiceType>
+        <inv:date>2014-04-14</inv:date>
+        <inv:dateAccounting>2014-04-14</inv:dateAccounting>
+        <inv:dateDue>2014-04-20</inv:dateDue>
+        <inv:symVar>17111</inv:symVar>
+        <inv:accounting>
+          <typ:accountingType>withoutAccounting</typ:accountingType>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:classificationVATType>inland</typ:classificationVATType>
+        </inv:classificationVAT>
+        <inv:text>Faktura s adresou - vazba přes extID</inv:text>
+        <inv:partnerIdentity>
+          <typ:extId>
+            <typ:ids>EXT-001</typ:ids>
+            <typ:exSystemName>Externi system</typ:exSystemName>
+          </typ:extId>
+        </inv:partnerIdentity>
+        <inv:paymentType>
+          <typ:ids>Master Card</typ:ids>
+        </inv:paymentType>
+        <inv:paymentAccount>
+          <typ:accountNo>1071743463</typ:accountNo>
+          <typ:bankCode>2700</typ:bankCode>
+        </inv:paymentAccount>
+        <inv:note>Načteno z XML</inv:note>
+        <inv:intNote>Faktura bez položek, vazba adresy přes extID</inv:intNote>
+      </inv:invoiceHeader>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

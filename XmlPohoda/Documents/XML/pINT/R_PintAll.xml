@@ -1,0 +1,2524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rsp:responsePack version="2.0" id="srv0001" state="ok" programVersion="11806.2 SQL (22.2.2018)" ico="28890060" note="Note" xmlns:rsp="http://www.stormware.cz/schema/version_2/response.xsd" xmlns:rdc="http://www.stormware.cz/schema/version_2/documentresponse.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:lStk="http://www.stormware.cz/schema/version_2/list_stock.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:stk="http://www.stormware.cz/schema/version_2/stock.xsd" xmlns:ord="http://www.stormware.cz/schema/version_2/order.xsd" xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd" xmlns:vyd="http://www.stormware.cz/schema/version_2/vydejka.xsd" xmlns:pri="http://www.stormware.cz/schema/version_2/prijemka.xsd" xmlns:bal="http://www.stormware.cz/schema/version_2/balance.xsd" xmlns:pre="http://www.stormware.cz/schema/version_2/prevodka.xsd" xmlns:vyr="http://www.stormware.cz/schema/version_2/vyroba.xsd" xmlns:pro="http://www.stormware.cz/schema/version_2/prodejka.xsd" xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:prm="http://www.stormware.cz/schema/version_2/parameter.xsd" xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd" xmlns:ctg="http://www.stormware.cz/schema/version_2/category.xsd" xmlns:ipm="http://www.stormware.cz/schema/version_2/intParam.xsd" xmlns:str="http://www.stormware.cz/schema/version_2/storage.xsd" xmlns:idp="http://www.stormware.cz/schema/version_2/individualPrice.xsd" xmlns:sup="http://www.stormware.cz/schema/version_2/supplier.xsd" xmlns:prn="http://www.stormware.cz/schema/version_2/print.xsd" xmlns:sEET="http://www.stormware.cz/schema/version_2/sendEET.xsd" xmlns:act="http://www.stormware.cz/schema/version_2/accountancy.xsd" xmlns:bnk="http://www.stormware.cz/schema/version_2/bank.xsd" xmlns:sto="http://www.stormware.cz/schema/version_2/store.xsd" xmlns:grs="http://www.stormware.cz/schema/version_2/groupStocks.xsd" xmlns:acp="http://www.stormware.cz/schema/version_2/actionPrice.xsd" xmlns:csh="http://www.stormware.cz/schema/version_2/cashRegister.xsd" xmlns:bka="http://www.stormware.cz/schema/version_2/bankAccount.xsd" xmlns:ilt="http://www.stormware.cz/schema/version_2/inventoryLists.xsd" xmlns:nms="http://www.stormware.cz/schema/version_2/numericalSeries.xsd" xmlns:pay="http://www.stormware.cz/schema/version_2/payment.xsd" xmlns:mKasa="http://www.stormware.cz/schema/version_2/mKasa.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd">
+  <rsp:responsePackItem version="2.0" id="srv00011" state="ok">
+    <lst:listIntDoc version="2.0" dateTimeStamp="2018-03-10T21:39:58" dateValidFrom="2018-03-10" state="ok">
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>238</int:id>
+          <int:number>
+            <typ:id>344</typ:id>
+            <typ:ids>16IN</typ:ids>
+            <typ:numberRequested>16IN00034</typ:numberRequested>
+          </int:number>
+          <int:symVar>201612</int:symVar>
+          <int:symPar>MZ201612</int:symPar>
+          <int:date>2017-01-12</int:date>
+          <int:dateTax>2017-01-12</int:dateTax>
+          <int:dateAccounting>2016-12-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>3</typ:id>
+            <typ:ids>Bez</typ:ids>
+            <typ:accountingType>withoutAccounting</typ:accountingType>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2016/12, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2016/12, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>63196</typ:unitPrice>
+              <typ:price>63196</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>63196</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2016/12, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>10202</typ:unitPrice>
+              <typ:price>10202</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>10202</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2016/12, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>7273</typ:unitPrice>
+              <typ:price>7273</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>7273</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>80671</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>239</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00001</typ:numberRequested>
+          </int:number>
+          <int:symVar>201701</int:symVar>
+          <int:symPar>MZ201701</int:symPar>
+          <int:date>2017-02-12</int:date>
+          <int:dateTax>2017-02-12</int:dateTax>
+          <int:dateAccounting>2017-01-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/01, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/01, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>43900</typ:unitPrice>
+              <typ:price>43900</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>43900</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/01, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>6750</typ:unitPrice>
+              <typ:price>6750</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>6750</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/01, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>11000</typ:unitPrice>
+              <typ:price>11000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>11000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>61650</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>242</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00004</typ:numberRequested>
+          </int:number>
+          <int:symVar>201702</int:symVar>
+          <int:symPar>MZ201702</int:symPar>
+          <int:date>2017-03-13</int:date>
+          <int:dateTax>2017-03-13</int:dateTax>
+          <int:dateAccounting>2017-02-28</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/02, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/02, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>62980</typ:unitPrice>
+              <typ:price>62980</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>62980</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/02, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>4950</typ:unitPrice>
+              <typ:price>4950</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>4950</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/02, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>11000</typ:unitPrice>
+              <typ:price>11000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>11000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>78930</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>243</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00005</typ:numberRequested>
+          </int:number>
+          <int:symVar>1700005</int:symVar>
+          <int:date>2017-03-30</int:date>
+          <int:dateTax>2017-03-30</int:dateTax>
+          <int:dateAccounting>2017-03-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>339</typ:id>
+            <typ:ids>zisk</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>5</typ:id>
+            <typ:ids>UN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Zisk 2016</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>2780.32</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>244</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00006</typ:numberRequested>
+          </int:number>
+          <int:symVar>201703</int:symVar>
+          <int:symPar>MZ201703</int:symPar>
+          <int:date>2017-04-12</int:date>
+          <int:dateTax>2017-04-12</int:dateTax>
+          <int:dateAccounting>2017-03-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/03, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/03, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>55376</typ:unitPrice>
+              <typ:price>55376</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>55376</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/03, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>5261</typ:unitPrice>
+              <typ:price>5261</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>5261</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/03, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>11000</typ:unitPrice>
+              <typ:price>11000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>11000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>71637</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>245</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00007</typ:numberRequested>
+          </int:number>
+          <int:symVar>201704</int:symVar>
+          <int:symPar>MZ201704</int:symPar>
+          <int:date>2017-05-09</int:date>
+          <int:dateTax>2017-05-09</int:dateTax>
+          <int:dateAccounting>2017-04-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/04, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/04, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>75320</typ:unitPrice>
+              <typ:price>75320</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>75320</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/04, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>10725</typ:unitPrice>
+              <typ:price>10725</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>10725</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/04, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>11000</typ:unitPrice>
+              <typ:price>11000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>11000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>97045</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>248</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00010</typ:numberRequested>
+          </int:number>
+          <int:symVar>201705</int:symVar>
+          <int:symPar>MZ201705</int:symPar>
+          <int:date>2017-06-11</int:date>
+          <int:dateTax>2017-06-11</int:dateTax>
+          <int:dateAccounting>2017-05-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/05, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/05, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>99929</typ:unitPrice>
+              <typ:price>99929</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>99929</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/05, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>20087</typ:unitPrice>
+              <typ:price>20087</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>20087</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/05, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>11000</typ:unitPrice>
+              <typ:price>11000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>11000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>131016</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>249</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00011</typ:numberRequested>
+          </int:number>
+          <int:symVar>201706</int:symVar>
+          <int:symPar>MZ201706</int:symPar>
+          <int:date>2017-07-05</int:date>
+          <int:dateTax>2017-07-05</int:dateTax>
+          <int:dateAccounting>2017-06-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>112914</typ:unitPrice>
+              <typ:price>112914</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>112914</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>17250</typ:unitPrice>
+              <typ:price>17250</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>17250</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>11000</typ:unitPrice>
+              <typ:price>11000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>11000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>141164</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>250</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00012</typ:numberRequested>
+          </int:number>
+          <int:symVar>201706</int:symVar>
+          <int:symPar>MZ201706</int:symPar>
+          <int:date>2017-08-14</int:date>
+          <int:dateTax>2017-08-14</int:dateTax>
+          <int:dateAccounting>2017-06-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>109164</typ:unitPrice>
+              <typ:price>109164</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>109164</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>17250</typ:unitPrice>
+              <typ:price>17250</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>17250</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/06, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>11000</typ:unitPrice>
+              <typ:price>11000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>11000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>137414</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>251</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00013</typ:numberRequested>
+          </int:number>
+          <int:symVar>201707</int:symVar>
+          <int:symPar>MZ201707</int:symPar>
+          <int:date>2017-08-14</int:date>
+          <int:dateTax>2017-08-14</int:dateTax>
+          <int:dateAccounting>2017-07-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/07, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/07, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>82728</typ:unitPrice>
+              <typ:price>82728</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>82728</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/07, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>5238</typ:unitPrice>
+              <typ:price>5238</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>5238</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/07, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>20000</typ:unitPrice>
+              <typ:price>20000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>20000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>107966</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>252</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00014</typ:numberRequested>
+          </int:number>
+          <int:symVar>201708</int:symVar>
+          <int:symPar>MZ201708</int:symPar>
+          <int:date>2017-09-14</int:date>
+          <int:dateTax>2017-09-14</int:dateTax>
+          <int:dateAccounting>2017-08-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/08, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/08, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>92826</typ:unitPrice>
+              <typ:price>92826</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>92826</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/08, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>9804</typ:unitPrice>
+              <typ:price>9804</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>9804</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/08, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>20000</typ:unitPrice>
+              <typ:price>20000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>20000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>122630</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>253</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00015</typ:numberRequested>
+          </int:number>
+          <int:symVar>201709</int:symVar>
+          <int:symPar>MZ201709</int:symPar>
+          <int:date>2017-10-04</int:date>
+          <int:dateTax>2017-10-04</int:dateTax>
+          <int:dateAccounting>2017-09-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/09, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/09, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>82297</typ:unitPrice>
+              <typ:price>82297</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>82297</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/09, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>10738</typ:unitPrice>
+              <typ:price>10738</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>10738</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/09, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>20000</typ:unitPrice>
+              <typ:price>20000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>20000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>113035</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>254</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00016</typ:numberRequested>
+          </int:number>
+          <int:symPar>MZ201709</int:symPar>
+          <int:date>2017-10-04</int:date>
+          <int:dateTax>2017-10-04</int:dateTax>
+          <int:dateAccounting>2017-09-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/09, n�hrady - nemoc</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/09, n�hrady - nemoc</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>2617</typ:unitPrice>
+              <typ:price>2617</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>2617</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>2617</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>255</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00017</typ:numberRequested>
+          </int:number>
+          <int:symVar>201710</int:symVar>
+          <int:symPar>MZ201710</int:symPar>
+          <int:date>2017-11-09</int:date>
+          <int:dateTax>2017-11-09</int:dateTax>
+          <int:dateAccounting>2017-10-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/10, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/10, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>96504</typ:unitPrice>
+              <typ:price>96504</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>96504</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/10, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>10000</typ:unitPrice>
+              <typ:price>10000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>10000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/10, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>20000</typ:unitPrice>
+              <typ:price>20000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>20000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>126504</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>256</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00018</typ:numberRequested>
+          </int:number>
+          <int:symVar>201711</int:symVar>
+          <int:symPar>MZ201711</int:symPar>
+          <int:date>2017-12-06</int:date>
+          <int:dateTax>2017-12-06</int:dateTax>
+          <int:dateAccounting>2017-11-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/11, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/11, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>92432</typ:unitPrice>
+              <typ:price>92432</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>92432</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/11, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>12000</typ:unitPrice>
+              <typ:price>12000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>12000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/11, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>20000</typ:unitPrice>
+              <typ:price>20000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>20000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>124432</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>257</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00019</typ:numberRequested>
+          </int:number>
+          <int:symPar>MZ201711</int:symPar>
+          <int:date>2017-12-06</int:date>
+          <int:dateTax>2017-12-06</int:dateTax>
+          <int:dateAccounting>2017-11-30</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/11, n�hrady - nemoc</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/11, n�hrady - nemoc</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>1996</typ:unitPrice>
+              <typ:price>1996</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>1996</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>1996</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>258</int:id>
+          <int:number>
+            <typ:id>404</typ:id>
+            <typ:ids>17IN</typ:ids>
+            <typ:numberRequested>17IN00020</typ:numberRequested>
+          </int:number>
+          <int:symVar>201712</int:symVar>
+          <int:symPar>MZ201712</int:symPar>
+          <int:date>2018-01-09</int:date>
+          <int:dateTax>2018-01-09</int:dateTax>
+          <int:dateAccounting>2017-12-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2017/12, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/12, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>83409</typ:unitPrice>
+              <typ:price>83409</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>83409</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zamestnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/12, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>12364</typ:unitPrice>
+              <typ:price>12364</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>12364</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zamestnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2017/12, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>19443</typ:unitPrice>
+              <typ:price>19443</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>19443</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spolecn�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>115216</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>260</int:id>
+          <int:number>
+            <typ:id>431</typ:id>
+            <typ:ids>17UD</typ:ids>
+            <typ:numberRequested>17UD00002</typ:numberRequested>
+          </int:number>
+          <int:symVar>28890060</int:symVar>
+          <int:symPar>MZ201712</int:symPar>
+          <int:date>2017-12-31</int:date>
+          <int:dateTax>2017-12-31</int:dateTax>
+          <int:dateAccounting>2017-12-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>290</typ:id>
+            <typ:ids>preF�</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>5</typ:id>
+            <typ:ids>UN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>�hrada OP �.170900015,OP �.170900013,OP �.170900011,OP �.170900016,OP �.170900017,OP �.170900018,OZ �.28890060,OP �.170900010, OP �.170900018</int:text>
+          <int:partnerIdentity>
+            <typ:address>
+              <typ:company>F�</typ:company>
+              <typ:city>Praha 9</typ:city>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+            </typ:shipToAddress>
+          </int:partnerIdentity>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900015</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>4079</typ:unitPrice>
+              <typ:price>4079</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>4079</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>MZ201709</int:symPar>
+            <int:accounting>
+              <typ:id>290</typ:id>
+              <typ:ids>preF�</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900013</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>4207</typ:unitPrice>
+              <typ:price>4207</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>4207</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>MZ201707</int:symPar>
+            <int:accounting>
+              <typ:id>290</typ:id>
+              <typ:ids>preF�</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900011</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>4380</typ:unitPrice>
+              <typ:price>4380</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>4380</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>28890060</int:symPar>
+            <int:accounting>
+              <typ:id>206</typ:id>
+              <typ:ids>DPH odvod</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900016</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>3929</typ:unitPrice>
+              <typ:price>3929</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>3929</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>MZ201710</int:symPar>
+            <int:accounting>
+              <typ:id>290</typ:id>
+              <typ:ids>preF�</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900017</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>3884</typ:unitPrice>
+              <typ:price>3884</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>3884</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>MZ201711</int:symPar>
+            <int:accounting>
+              <typ:id>290</typ:id>
+              <typ:ids>preF�</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900018</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>3816</typ:unitPrice>
+              <typ:price>3816</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>3816</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>MZ201712</int:symPar>
+            <int:accounting>
+              <typ:id>290</typ:id>
+              <typ:ids>preF�</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OZ �. 28890060</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>25601</typ:unitPrice>
+              <typ:price>25601</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>25601</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>28890060</int:symPar>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900010</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>1656</typ:unitPrice>
+              <typ:price>1656</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>1656</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>MZ201706</int:symPar>
+            <int:accounting>
+              <typ:id>290</typ:id>
+              <typ:ids>preF�</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>�hrada OP �. 170900018</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:coefficient>1.0</int:coefficient>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>608</typ:unitPrice>
+              <typ:price>608</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>608</typ:priceSum>
+            </int:homeCurrency>
+            <int:symPar>MZ201712</int:symPar>
+            <int:accounting>
+              <typ:id>290</typ:id>
+              <typ:ids>preF�</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>52160</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+      <lst:intDoc version="2.0">
+        <int:intDocHeader>
+          <int:id>262</int:id>
+          <int:number>
+            <typ:id>459</typ:id>
+            <typ:ids>18IN</typ:ids>
+            <typ:numberRequested>18IN00001</typ:numberRequested>
+          </int:number>
+          <int:symVar>201801</int:symVar>
+          <int:symPar>MZ201801</int:symPar>
+          <int:date>2018-02-12</int:date>
+          <int:dateTax>2018-02-12</int:dateTax>
+          <int:dateAccounting>2018-01-31</int:dateAccounting>
+          <int:accounting>
+            <typ:id>118</typ:id>
+            <typ:ids>7Int</typ:ids>
+          </int:accounting>
+          <int:classificationVAT>
+            <typ:id>14</typ:id>
+            <typ:ids>PN</typ:ids>
+            <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+          </int:classificationVAT>
+          <int:text>Mzdy 2018/01, hrub� mzda</int:text>
+          <int:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </int:myIdentity>
+          <int:liquidation>false</int:liquidation>
+          <int:markRecord>false</int:markRecord>
+        </int:intDocHeader>
+        <int:intDocDetail>
+          <int:intDocItem>
+            <int:text>Mzdy 2018/01, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>88831</typ:unitPrice>
+              <typ:price>88831</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>88831</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2018/01, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>12465</typ:unitPrice>
+              <typ:price>12465</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>12465</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(zam�stnanci)</int:note>
+            <int:accounting>
+              <typ:id>118</typ:id>
+              <typ:ids>7Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+          <int:intDocItem>
+            <int:text>Mzdy 2018/01, hrub� mzda</int:text>
+            <int:quantity>1.0</int:quantity>
+            <int:payVAT>false</int:payVAT>
+            <int:rateVAT>none</int:rateVAT>
+            <int:discountPercentage>0.0</int:discountPercentage>
+            <int:homeCurrency>
+              <typ:unitPrice>20000</typ:unitPrice>
+              <typ:price>20000</typ:price>
+              <typ:priceVAT>0</typ:priceVAT>
+              <typ:priceSum>20000</typ:priceSum>
+            </int:homeCurrency>
+            <int:note>(spole�n�ci)</int:note>
+            <int:accounting>
+              <typ:id>119</typ:id>
+              <typ:ids>8Int</typ:ids>
+            </int:accounting>
+            <int:centre>
+              <typ:id>3</typ:id>
+              <typ:ids>OlhaSoyma</typ:ids>
+            </int:centre>
+          </int:intDocItem>
+        </int:intDocDetail>
+        <int:intDocSummary>
+          <int:roundingDocument>none</int:roundingDocument>
+          <int:roundingVAT>none</int:roundingVAT>
+          <int:homeCurrency>
+            <typ:priceNone>121296</typ:priceNone>
+            <typ:priceLow>0</typ:priceLow>
+            <typ:priceLowVAT>0</typ:priceLowVAT>
+            <typ:priceLowSum>0</typ:priceLowSum>
+            <typ:priceHigh>0</typ:priceHigh>
+            <typ:priceHighVAT>0</typ:priceHighVAT>
+            <typ:priceHighSum>0</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </int:homeCurrency>
+        </int:intDocSummary>
+      </lst:intDoc>
+    </lst:listIntDoc>
+  </rsp:responsePackItem>
+</rsp:responsePack>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dat:dataPack xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" version="2.0" note="Note" application="SyncSrv" ico="28890060" id="srv0001">
+  <dat:dataPackItem version="2.0" id="srv00011">
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:symVar>1212</inv:symVar>
+        <inv:date>2018-03-12</inv:date>
+        <inv:dateTax>2018-03-12</inv:dateTax>
+        <inv:dateAccounting>2018-03-12</inv:dateAccounting>
+        <inv:dateDue>2018-03-12</inv:dateDue>
+        <inv:accounting>
+          <typ:ids>3FV</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:classificationVATType>inland</typ:classificationVATType>
+        </inv:classificationVAT>
+        <inv:text>Faktura za zboží s adresou bez vazby na Adresář</inv:text>
+        <inv:partnerIdentity>
+          <typ:address>
+            <typ:company>firma</typ:company>
+            <typ:division>Obchodní oddělení</typ:division>
+            <typ:name>Petr Novák</typ:name>
+            <typ:city>Brno</typ:city>
+            <typ:street>Nová 5</typ:street>
+            <typ:zip>50000</typ:zip>
+            <typ:ico>12345678</typ:ico>
+            <typ:dic>CZ12345678</typ:dic>
+          </typ:address>
+          <typ:shipToAddress>
+            <typ:name>Soukop Bohumil</typ:name>
+            <typ:city>Praha</typ:city>
+            <typ:street>Nová 1475</typ:street>
+          </typ:shipToAddress>
+        </inv:partnerIdentity>
+        <inv:numberOrder>obj 2006010457</inv:numberOrder>
+        <inv:dateOrder>2018-03-12</inv:dateOrder>
+        <inv:paymentType>
+          <typ:paymentType>Master Card</typ:paymentType>
+        </inv:paymentType>
+        <inv:account>
+          <typ:accountNo>1117780287</typ:accountNo>
+          <typ:bankCode>0300</typ:bankCode>
+        </inv:account>
+        <inv:note>Načteno z XML</inv:note>
+        <inv:intNote>Tento doklad byl vytvořen importem přes XML.</inv:intNote>
+        <inv:centre>
+          <typ:ids>BRNO</typ:ids>
+        </inv:centre>
+        <inv:activity>
+          <typ:ids>SLUŽBY</typ:ids>
+        </inv:activity>
+        <inv:contract>
+          <typ:ids>10Zak00002</typ:ids>
+        </inv:contract>
+      </inv:invoiceHeader>
+      <inv:invoiceSummary>
+        <inv:roundingDocument>math2one</inv:roundingDocument>
+        <inv:homeCurrency>
+          <typ:priceNone>100</typ:priceNone>
+          <typ:priceLow>200</typ:priceLow>
+          <typ:priceHighSum>500</typ:priceHighSum>
+        </inv:homeCurrency>
+      </inv:invoiceSummary>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>
+

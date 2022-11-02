@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="ad001" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Import adresy s GDPR" version="2.0" application="StwTest" ico="12345678">
+  <dat:dataPackItem id="AD001" version="2.0">
+    <adb:addressbook version="2.0">
+      <!-- import adresa s GDPR -->
+      <adb:addressbookHeader>
+        <adb:identity>
+          <typ:address>
+            <typ:company>IMEC s.r.o.</typ:company>
+            <typ:division>Vstupní oddělení</typ:division>
+            <typ:name>Anna Veselá</typ:name>
+            <typ:city>Jihlava</typ:city>
+            <typ:street>Jarní 4</typ:street>
+            <typ:zip>58601</typ:zip>
+            <typ:ico>19436088</typ:ico>
+            <typ:dic>CZ19436088</typ:dic>
+          </typ:address>
+          <typ:shipToAddress>
+            <typ:name>Soukop Bohumil</typ:name>
+            <typ:city>Třebíč</typ:city>
+            <typ:street>Nová 31</typ:street>
+          </typ:shipToAddress>
+        </adb:identity>
+        <adb:mobil>606888970</adb:mobil>
+        <adb:email>vesela@seznam.cz</adb:email>
+        <adb:web>www.imec.cz</adb:web>
+        <adb:note>Načteno z XML.</adb:note>
+        <adb:intNote>Import adresy</adb:intNote>
+      </adb:addressbookHeader>
+      <adb:addressbookAccount>
+        <adb:accountItem>
+          <adb:accountNumber>202200000</adb:accountNumber>
+          <adb:bankCode>0800</adb:bankCode>
+          <adb:defaultAccount>true</adb:defaultAccount>
+        </adb:accountItem>
+      </adb:addressbookAccount>
+      <!--nastavení údajů GDPR-->
+      <adb:addressbookGDPR>
+        <adb:GDPRItems>
+          <adb:GDPRItem>
+            <adb:name>
+              <typ:ids>Zasílání obchodních sdělení</typ:ids>
+            </adb:name>
+            <adb:dateFrom>2018-05-01</adb:dateFrom>
+            <adb:note>Souhlas s evidencí údajů.</adb:note>
+          </adb:GDPRItem>
+        </adb:GDPRItems>
+      </adb:addressbookGDPR>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

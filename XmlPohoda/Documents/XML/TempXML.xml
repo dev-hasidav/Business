@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0"
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+              note="Import FA" application="StwTest" ico="12345678" id="fa001">
+  <dat:dataPackItem version="2.0" id="AD001">
+    <!-- faktura bez polozky a bez adresy -->
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>commitment</inv:invoiceType>
+        <inv:numberOrder>12345678</inv:numberOrder>
+      </inv:invoiceHeader>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

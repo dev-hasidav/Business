@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="Ad002" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Import adres" version="2.0" application="StwTest" ico="12345678">
+  <dat:dataPackItem id="AD001" version="2.0">
+    <adb:addressbook version="2.0">
+      <adb:addressbookHeader>
+        <adb:identity>
+          <typ:extId>
+            <typ:ids>EXT-001</typ:ids>
+            <typ:exSystemName>Externi system</typ:exSystemName>
+            <typ:exSystemText>ekonomický program</typ:exSystemText>
+          </typ:extId>
+          <typ:address>
+            <typ:company>TEMCO s.r.o.</typ:company>
+            <typ:division>Test oddělení</typ:division>
+            <typ:name>Antonín Tlustý</typ:name>
+            <typ:city>Jihlava</typ:city>
+            <typ:street>Komenského 10</typ:street>
+            <typ:zip>56801</typ:zip>
+            <typ:ico>7112234174</typ:ico>
+            <typ:dic>CZ7112234174</typ:dic>
+          </typ:address>
+          <typ:shipToAddress>
+            <typ:name>Soukop Bohumil</typ:name>
+            <typ:city>Třebíč</typ:city>
+            <typ:street>Nová</typ:street>
+          </typ:shipToAddress>
+        </adb:identity>
+        <adb:region>Vysočina</adb:region>
+        <adb:phone>567321982</adb:phone>
+        <adb:mobil>603888980</adb:mobil>
+        <adb:fax>567321983</adb:fax>
+        <adb:email>10kb@seznam.cz</adb:email>
+        <adb:web>www.seznam.cz</adb:web>
+        <adb:adGroup>S1, S2</adb:adGroup>
+        <adb:adKey>K1, K2</adb:adKey>
+        <adb:priceIDS>Prodejní</adb:priceIDS>
+        <adb:maturity>20</adb:maturity>
+        <adb:agreement>smlouva c.1</adb:agreement>
+        <adb:ost1>aaa</adb:ost1>
+        <adb:ost2>bbb</adb:ost2>
+        <adb:p1>true</adb:p1>
+        <adb:p6>true</adb:p6>
+        <adb:message>Test message 1.</adb:message>
+        <adb:note>Načteno z XML</adb:note>
+        <adb:centre>
+          <typ:ids>BRNO</typ:ids>
+        </adb:centre>
+        <adb:activity>
+          <typ:ids>NÁBYTEK</typ:ids>
+        </adb:activity>
+        <adb:contract>
+          <typ:ids>23Zak00002</typ:ids>
+        </adb:contract>
+      </adb:addressbookHeader>
+      <adb:addressbookAccount>
+        <adb:accountItem>
+          <adb:accountNumber>19-2238000237</adb:accountNumber>
+          <adb:symSpec>3254</adb:symSpec>
+          <adb:bankCode>0100</adb:bankCode>
+          <adb:defaultAccount>true</adb:defaultAccount>
+        </adb:accountItem>
+      </adb:addressbookAccount>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

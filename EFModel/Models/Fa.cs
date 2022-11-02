@@ -1,0 +1,165 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace EFModel.Models
+{
+    public partial class Fa
+    {
+        public Fa()
+        {
+            Fapol = new HashSet<Fapol>();
+        }
+
+        public int Id { get; set; }
+        public int? UsrOrder { get; set; }
+        public int? RefCin { get; set; }
+        public int? RefStr { get; set; }
+        public string CisloZak { get; set; }
+        public int? RefUcet { get; set; }
+        public int? RefZeme { get; set; }
+        public int? RelPk { get; set; }
+        public int? RelTpDph { get; set; }
+        public int? RelTpFak { get; set; }
+        public int? RelDrFak { get; set; }
+        public int? RelMobch { get; set; }
+        public int? RelForUh { get; set; }
+        public int? RelObDph { get; set; }
+        public int? RelObKh { get; set; }
+        public int? RelObSh { get; set; }
+        public int? RelDruh { get; set; }
+        public int? ZaokrFv { get; set; }
+        public int? ZpOdpZal { get; set; }
+        public bool Sel { get; set; }
+        public string Labels { get; set; }
+        public bool Polozky { get; set; }
+        public bool DanDokl { get; set; }
+        public bool Vyrizeno { get; set; }
+        public bool TextDokl { get; set; }
+        public bool Bprenes { get; set; }
+        public string Cislo { get; set; }
+        public int? RelCr { get; set; }
+        public string Pdoklad { get; set; }
+        public string VarSym { get; set; }
+        public string ParSym { get; set; }
+        public string CisloKhdph { get; set; }
+        public string Stext { get; set; }
+        public DateTime? Datum { get; set; }
+        public DateTime? DatUcP { get; set; }
+        public DateTime? DatSplat { get; set; }
+        public int? RelDobr { get; set; }
+        public int? RelStorn { get; set; }
+        public bool TpStorn { get; set; }
+        public DateTime? DatStorn { get; set; }
+        public DateTime? DatLikv { get; set; }
+        public DateTime? DatZdPln { get; set; }
+        public DateTime? DatOdDph { get; set; }
+        public DateTime? DatKhdph { get; set; }
+        public DateTime? DatObj { get; set; }
+        public bool HistSzDph { get; set; }
+        public string DicregDpheu { get; set; }
+        public string Moss { get; set; }
+        public string Mossdukaz { get; set; }
+        public int? RelObMoss { get; set; }
+        public DateTime? DatZdPlnMoss { get; set; }
+        public bool Mossoprava { get; set; }
+        public int? RelZpVypDph { get; set; }
+        public int? RelTpCalcDph { get; set; }
+        public decimal? Kc0 { get; set; }
+        public decimal? Kc1 { get; set; }
+        public decimal? KcDph1 { get; set; }
+        public decimal? Kc2 { get; set; }
+        public decimal? KcDph2 { get; set; }
+        public decimal? Kc3 { get; set; }
+        public decimal? KcDph3 { get; set; }
+        public decimal? KcZaloha { get; set; }
+        public decimal? KcCelkem { get; set; }
+        public decimal? KcLikv { get; set; }
+        public decimal? KcKrzaloha { get; set; }
+        public decimal? KcU { get; set; }
+        public decimal? KcPrepl { get; set; }
+        public decimal? KcPreplCelkem { get; set; }
+        public decimal? KcZaokr { get; set; }
+        public decimal? KcUplat { get; set; }
+        public decimal? KcP { get; set; }
+        public decimal? KcPupr { get; set; }
+        public DateTime? DatPrik { get; set; }
+        public int? RefCm { get; set; }
+        public bool DenEur { get; set; }
+        public int? CmMnoz { get; set; }
+        public double? CmKurs { get; set; }
+        public decimal? Cm0 { get; set; }
+        public decimal? CmZaloha { get; set; }
+        public decimal? CmCelkem { get; set; }
+        public decimal? CmLikv { get; set; }
+        public decimal? CmU { get; set; }
+        public decimal? CmZaokr { get; set; }
+        public decimal? CmP { get; set; }
+        public decimal? CmPupr { get; set; }
+        public DateTime? DatSplatPozas { get; set; }
+        public decimal? KcPozas { get; set; }
+        public decimal? KcLikvPozas { get; set; }
+        public decimal? CmPozas { get; set; }
+        public decimal? CmLikvPozas { get; set; }
+        public decimal? KcCastZaloha { get; set; }
+        public decimal? CmCastZaloha { get; set; }
+        public decimal? OrigKc1 { get; set; }
+        public decimal? OrigKc2 { get; set; }
+        public decimal? Kzapoctu { get; set; }
+        public string CisloObj { get; set; }
+        public int? RefAd { get; set; }
+        public int? RefAddod { get; set; }
+        public string Firma { get; set; }
+        public string Utvar { get; set; }
+        public string Jmeno { get; set; }
+        public string Ulice { get; set; }
+        public string Psc { get; set; }
+        public string Obec { get; set; }
+        public string Ico { get; set; }
+        public string Dic { get; set; }
+        public string Icdph { get; set; }
+        public int? RelTypDic { get; set; }
+        public string Email { get; set; }
+        public string Tel { get; set; }
+        public string Gsm { get; set; }
+        public string Fax { get; set; }
+        public string Firma2 { get; set; }
+        public string Utvar2 { get; set; }
+        public string Jmeno2 { get; set; }
+        public string Ulice2 { get; set; }
+        public string Psc2 { get; set; }
+        public string Obec2 { get; set; }
+        public int? RefZeme2 { get; set; }
+        public string Tel2 { get; set; }
+        public string Email2 { get; set; }
+        public string CenyIds { get; set; }
+        public int? RefDopravci { get; set; }
+        public DateTime? DatVytEz { get; set; }
+        public string Ucet { get; set; }
+        public string KodBanky { get; set; }
+        public string PrijZprava { get; set; }
+        public string SpecSym { get; set; }
+        public string KonstSym { get; set; }
+        public string IsDocId { get; set; }
+        public bool IsCasRoz { get; set; }
+        public DateTime? DatCreate { get; set; }
+        public DateTime? DatSave { get; set; }
+        public bool TiskFm { get; set; }
+        public bool PlatTerm { get; set; }
+        public bool MPohoda { get; set; }
+        public string Oznacil { get; set; }
+        public string Ucetni { get; set; }
+        public string Creator { get; set; }
+        public bool Lock { get; set; }
+        public bool Lock1 { get; set; }
+        public string Pozn { get; set; }
+        public string Pozn2 { get; set; }
+        public int? RelStavEet { get; set; }
+        public bool StornoEet { get; set; }
+        public int? RefEetprofil { get; set; }
+        public DateTime? DatArchiv { get; set; }
+        public bool Archived { get; set; }
+        public int NullCheckCislo { get; set; }
+
+        public ICollection<Fapol> Fapol { get; set; }
+    }
+}

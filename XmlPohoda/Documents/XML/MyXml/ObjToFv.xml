@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dat:dataPack  version="2.0"
+			xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+      xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd"
+			xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd"
+			xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+      xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+      note="Import FV" application="StwTest" ico="28890060" id="100">
+  <dat:dataPackItem version="2.0" id="101">
+    <!--конвектирование Obj в FV-->
+    <inv:invoice version="2.0">
+      <inv:links>
+        <typ:link>
+          <typ:sourceDocument>
+            <!-- Cislo Obj -->
+            <typ:number>182100001</typ:number>
+          </typ:sourceDocument>
+          <typ:sourceAgenda>receivedOrder</typ:sourceAgenda>
+        </typ:link>
+      </inv:links>
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:number>
+          <typ:ids>1801</typ:ids>
+        </inv:number>
+        <inv:date>2018-06-13</inv:date>
+        <inv:accounting>
+          <typ:ids>3Fv</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:ids>UD</typ:ids>
+        </inv:classificationVAT>
+        <inv:paymentType>
+          <typ:ids>EUR</typ:ids>
+        </inv:paymentType>
+        <inv:account>
+          <typ:ids>Fio</typ:ids>
+        </inv:account>
+        <inv:text>--- Obj ( 182100001 ) -- FV (New) -- N P ---</inv:text>
+      </inv:invoiceHeader>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

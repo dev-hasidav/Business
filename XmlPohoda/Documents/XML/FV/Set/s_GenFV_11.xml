@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rsp:responsePack version="2.0" id="srv0001" state="ok" programVersion="11806.2 SQL (22.2.2018)" ico="28890060" note="Note" xmlns:rsp="http://www.stormware.cz/schema/version_2/response.xsd" xmlns:rdc="http://www.stormware.cz/schema/version_2/documentresponse.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:lStk="http://www.stormware.cz/schema/version_2/list_stock.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:stk="http://www.stormware.cz/schema/version_2/stock.xsd" xmlns:ord="http://www.stormware.cz/schema/version_2/order.xsd" xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd" xmlns:vyd="http://www.stormware.cz/schema/version_2/vydejka.xsd" xmlns:pri="http://www.stormware.cz/schema/version_2/prijemka.xsd" xmlns:bal="http://www.stormware.cz/schema/version_2/balance.xsd" xmlns:pre="http://www.stormware.cz/schema/version_2/prevodka.xsd" xmlns:vyr="http://www.stormware.cz/schema/version_2/vyroba.xsd" xmlns:pro="http://www.stormware.cz/schema/version_2/prodejka.xsd" xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:prm="http://www.stormware.cz/schema/version_2/parameter.xsd" xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd" xmlns:ctg="http://www.stormware.cz/schema/version_2/category.xsd" xmlns:ipm="http://www.stormware.cz/schema/version_2/intParam.xsd" xmlns:str="http://www.stormware.cz/schema/version_2/storage.xsd" xmlns:idp="http://www.stormware.cz/schema/version_2/individualPrice.xsd" xmlns:sup="http://www.stormware.cz/schema/version_2/supplier.xsd" xmlns:prn="http://www.stormware.cz/schema/version_2/print.xsd" xmlns:sEET="http://www.stormware.cz/schema/version_2/sendEET.xsd" xmlns:act="http://www.stormware.cz/schema/version_2/accountancy.xsd" xmlns:bnk="http://www.stormware.cz/schema/version_2/bank.xsd" xmlns:sto="http://www.stormware.cz/schema/version_2/store.xsd" xmlns:grs="http://www.stormware.cz/schema/version_2/groupStocks.xsd" xmlns:acp="http://www.stormware.cz/schema/version_2/actionPrice.xsd" xmlns:csh="http://www.stormware.cz/schema/version_2/cashRegister.xsd" xmlns:bka="http://www.stormware.cz/schema/version_2/bankAccount.xsd" xmlns:ilt="http://www.stormware.cz/schema/version_2/inventoryLists.xsd" xmlns:nms="http://www.stormware.cz/schema/version_2/numericalSeries.xsd" xmlns:pay="http://www.stormware.cz/schema/version_2/payment.xsd" xmlns:mKasa="http://www.stormware.cz/schema/version_2/mKasa.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd">
+  <rsp:responsePackItem version="2.0" id="srv00011" state="ok">
+    <lst:listInvoice version="2.0" dateTimeStamp="2018-03-11T14:42:50" dateValidFrom="2018-03-11" state="ok">
+      <lst:invoice version="2.0">
+        <inv:invoiceHeader>
+          <inv:id>18346</inv:id>
+          <inv:invoiceType>issuedInvoice</inv:invoiceType>
+          <inv:number>
+            <typ:id>407</typ:id>
+            <typ:ids>1701</typ:ids>
+            <typ:numberRequested>170100144</typ:numberRequested>
+          </inv:number>
+          <inv:symVar>170100144</inv:symVar>
+          <inv:date>2018-03-11</inv:date>
+          <inv:dateTax>2018-03-11</inv:dateTax>
+          <inv:dateAccounting>2018-03-11</inv:dateAccounting>
+          <inv:dateDue>2018-03-25</inv:dateDue>
+          <inv:accounting>
+            <typ:id>17</typ:id>
+            <typ:ids>3Fv</typ:ids>
+          </inv:accounting>
+          <inv:classificationVAT>
+            <typ:id>251</typ:id>
+            <typ:ids>UD</typ:ids>
+          </inv:classificationVAT>
+          <inv:text>Faktura za zbo�� bez adresy</inv:text>
+          <inv:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </inv:myIdentity>
+          <inv:paymentType>
+            <typ:id>1</typ:id>
+            <typ:ids>pr�kazem</typ:ids>
+            <typ:paymentType>draft</typ:paymentType>
+          </inv:paymentType>
+          <inv:account>
+            <typ:id>4</typ:id>
+            <typ:ids>Fio</typ:ids>
+            <typ:accountNo>2200296685</typ:accountNo>
+          </inv:account>
+          <inv:symConst>0308</inv:symConst>
+          <inv:note>Import XML.</inv:note>
+          <inv:intNote>Tento doklad byl vytvo�en importem p�es XML.</inv:intNote>
+          <inv:liquidation>
+            <typ:amountHome>72575</typ:amountHome>
+          </inv:liquidation>
+          <inv:markRecord>true</inv:markRecord>
+          <inv:parameters></inv:parameters>
+        </inv:invoiceHeader>
+        <inv:invoiceSummary>
+          <inv:roundingDocument>math2one</inv:roundingDocument>
+          <inv:roundingVAT>none</inv:roundingVAT>
+          <inv:calculateVAT>false</inv:calculateVAT>
+          <inv:homeCurrency>
+            <typ:priceNone>3018</typ:priceNone>
+            <typ:priceLow>60000</typ:priceLow>
+            <typ:priceLowVAT>9000</typ:priceLowVAT>
+            <typ:priceLowSum>69000</typ:priceLowSum>
+            <typ:priceHigh>460.3</typ:priceHigh>
+            <typ:priceHighVAT>96.7</typ:priceHighVAT>
+            <typ:priceHighSum>557</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>0</typ:priceRound>
+            </typ:round>
+          </inv:homeCurrency>
+        </inv:invoiceSummary>
+      </lst:invoice>
+      <lst:invoice version="2.0">
+        <inv:invoiceHeader>
+          <inv:id>18347</inv:id>
+          <inv:invoiceType>issuedInvoice</inv:invoiceType>
+          <inv:number>
+            <typ:id>407</typ:id>
+            <typ:ids>1701</typ:ids>
+            <typ:numberRequested>170100145</typ:numberRequested>
+          </inv:number>
+          <inv:symVar>170100145</inv:symVar>
+          <inv:date>2018-03-11</inv:date>
+          <inv:dateTax>2018-03-11</inv:dateTax>
+          <inv:dateAccounting>2018-03-11</inv:dateAccounting>
+          <inv:dateDue>2018-03-25</inv:dateDue>
+          <inv:accounting>
+            <typ:id>17</typ:id>
+            <typ:ids>3Fv</typ:ids>
+          </inv:accounting>
+          <inv:classificationVAT>
+            <typ:id>251</typ:id>
+            <typ:ids>UD</typ:ids>
+          </inv:classificationVAT>
+          <inv:text>11 - 11 Faktura za zbo�� bez adresy</inv:text>
+          <inv:myIdentity>
+            <typ:address>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:surname>Hozda</typ:surname>
+              <typ:name>Yuriy</typ:name>
+              <typ:city>Praha 9, Prosek</typ:city>
+              <typ:street>Kytlick�</typ:street>
+              <typ:number>755/13</typ:number>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+              <typ:phone>+420225850219</typ:phone>
+              <typ:fax>+420234280735</typ:fax>
+              <typ:email>ucetni@gazda.cz; ucetni@biznes.cz</typ:email>
+              <typ:www>www.anal.biznes.cz</typ:www>
+            </typ:address>
+            <typ:establishment>
+              <typ:company>Gazda GOLD</typ:company>
+              <typ:city>Praha 8</typ:city>
+              <typ:street>Nad �utkou 1811/12</typ:street>
+              <typ:zip>182 00 </typ:zip>
+            </typ:establishment>
+          </inv:myIdentity>
+          <inv:paymentType>
+            <typ:id>1</typ:id>
+            <typ:ids>pr�kazem</typ:ids>
+            <typ:paymentType>draft</typ:paymentType>
+          </inv:paymentType>
+          <inv:account>
+            <typ:id>4</typ:id>
+            <typ:ids>Fio</typ:ids>
+            <typ:accountNo>2200296685</typ:accountNo>
+          </inv:account>
+          <inv:symConst>0308</inv:symConst>
+          <inv:note>Import XML.</inv:note>
+          <inv:intNote>Tento doklad byl vytvo�en importem p�es XML.</inv:intNote>
+          <inv:liquidation>
+            <typ:amountHome>26999</typ:amountHome>
+          </inv:liquidation>
+          <inv:markRecord>true</inv:markRecord>
+          <inv:parameters></inv:parameters>
+        </inv:invoiceHeader>
+        <inv:invoiceSummary>
+          <inv:roundingDocument>math2one</inv:roundingDocument>
+          <inv:roundingVAT>none</inv:roundingVAT>
+          <inv:calculateVAT>false</inv:calculateVAT>
+          <inv:homeCurrency>
+            <typ:priceNone>1111</typ:priceNone>
+            <typ:priceLow>22222</typ:priceLow>
+            <typ:priceLowVAT>3333.3</typ:priceLowVAT>
+            <typ:priceLowSum>25555.3</typ:priceLowSum>
+            <typ:priceHigh>275.19</typ:priceHigh>
+            <typ:priceHighVAT>57.81</typ:priceHighVAT>
+            <typ:priceHighSum>333</typ:priceHighSum>
+            <typ:price3>0</typ:price3>
+            <typ:price3VAT>0</typ:price3VAT>
+            <typ:price3Sum>0</typ:price3Sum>
+            <typ:round>
+              <typ:priceRound>-0.3</typ:priceRound>
+            </typ:round>
+          </inv:homeCurrency>
+        </inv:invoiceSummary>
+      </lst:invoice>
+    </lst:listInvoice>
+  </rsp:responsePackItem>
+</rsp:responsePack>
+
+

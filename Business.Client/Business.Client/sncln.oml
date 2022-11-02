@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<stpsrv xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsSave>false</IsSave>
+  <NameHost>localhost</NameHost>
+  <Port>43240</Port>
+  <OdooConnectConsoleApp>S:\DevSoft\Business\ConsOdooNet6Client\bin\Debug\net6.0\ConsOdooNet6Client.exe</OdooConnectConsoleApp>
+</stpsrv>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="int003" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Import Interních dokladů" application="StwTest" ico="12345678" version="2.0">
+  <dat:dataPackItem id="INT001" version="2.0">
+    <!-- interní doklad v cizí měně bez položek -->
+    <int:intDoc version="2.0">
+      <int:intDocHeader>
+        <int:date>2018-10-20</int:date>
+        <int:dateTax>2018-10-20</int:dateTax>
+        <int:dateAccounting>2018-10-30</int:dateAccounting>
+        <int:classificationVAT>
+          <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+        </int:classificationVAT>
+        <int:text>Vyúčtování cestovních příkazů č. 26CPZ002</int:text>
+        <!--adresa bez vazby na program POHODA-->
+        <int:partnerIdentity>
+          <typ:address>
+            <typ:name>Janáček Petr</typ:name>
+            <typ:city>Jihlava 1</typ:city>
+            <typ:street>Jiráskova 26</typ:street>
+            <typ:zip>58601</typ:zip>
+          </typ:address>
+        </int:partnerIdentity>
+        <int:centre>
+          <typ:ids>Jihlava</typ:ids>
+        </int:centre>
+        <int:note>Načteno z XML.</int:note>
+        <int:intNote>Import Interního dokladu bez položek, v cizí měně.</int:intNote>
+      </int:intDocHeader>
+      <int:intDocSummary>
+        <int:foreignCurrency>
+          <typ:currency>
+            <typ:ids>EUR</typ:ids>
+          </typ:currency>
+          <typ:amount>1</typ:amount>
+          <typ:priceSum>77</typ:priceSum>
+        </int:foreignCurrency>
+      </int:intDocSummary>
+    </int:intDoc>
+  </dat:dataPackItem>
+</dat:dataPack>

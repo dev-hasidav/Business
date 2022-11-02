@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="int002" 
+              
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              
+              note="Import Interních dokladů" application="StwTest" ico="12345678" version="2.0">
+  <dat:dataPackItem id="INT001" version="2.0">
+    <!-- interní doklad s položkami -->
+    <int:intDoc version="2.0">
+      <int:intDocHeader>
+        <int:date>2018-10-15</int:date>
+        <int:dateTax>2018-10-15</int:dateTax>
+        <int:dateAccounting>2018-10-28</int:dateAccounting>
+        <int:accounting>
+          <typ:ids>9Int</typ:ids>
+        </int:accounting>
+        <int:classificationVAT>
+          <typ:classificationVATType>nonSubsume</typ:classificationVATType>
+        </int:classificationVAT>
+        <int:text>Vyúčtování cestovních příkazů č. 26CPT003</int:text>
+        <!--adresa bez vazby na program POHODA-->
+        <int:partnerIdentity>
+          <typ:address>
+            <typ:name>Novák Jan</typ:name>
+            <typ:city>Jihlava 1</typ:city>
+            <typ:street>Luční 16</typ:street>
+            <typ:zip>58601</typ:zip>
+          </typ:address>
+        </int:partnerIdentity>
+        <int:centre>
+          <typ:ids>Jihlava</typ:ids>
+        </int:centre>
+        <int:note>Načteno z XML.</int:note>
+        <int:intNote>Import Interního dokladu s položkama.</int:intNote>
+      </int:intDocHeader>
+      <int:intDocDetail>
+        <!--textova polozka-->
+        <int:intDocItem>
+          <int:text>Nocležné</int:text>
+          <int:quantity>1</int:quantity>
+          <int:rateVAT>none</int:rateVAT>
+          <int:homeCurrency>
+            <typ:unitPrice>600</typ:unitPrice>
+            <typ:priceVAT>0</typ:priceVAT>
+          </int:homeCurrency>
+          <int:note>25CPT003</int:note>
+          <int:accounting>
+            <typ:ids>1Int</typ:ids>
+          </int:accounting>
+        </int:intDocItem>
+        <!--textova polozka-->
+        <int:intDocItem>
+          <int:text>Nocležné</int:text>
+          <int:quantity>1</int:quantity>
+          <int:rateVAT>none</int:rateVAT>
+          <int:homeCurrency>
+            <typ:unitPrice>700</typ:unitPrice>
+            <typ:priceVAT>0</typ:priceVAT>
+          </int:homeCurrency>
+          <int:note>25CPT003</int:note>
+        </int:intDocItem>
+        <!--textova polozka-->
+        <int:intDocItem>
+          <int:text>Vedl. výdaje-daň. uznatelné</int:text>
+          <int:quantity>1</int:quantity>
+          <int:rateVAT>none</int:rateVAT>
+          <int:homeCurrency>
+            <typ:unitPrice>1200</typ:unitPrice>
+            <typ:priceVAT>0</typ:priceVAT>
+          </int:homeCurrency>
+          <int:note>25CPT003</int:note>
+        </int:intDocItem>
+        <!--textova polozka-->
+        <int:intDocItem>
+          <int:text>Stravné</int:text>
+          <int:quantity>1</int:quantity>
+          <int:rateVAT>none</int:rateVAT>
+          <int:homeCurrency>
+            <typ:unitPrice>590</typ:unitPrice>
+            <typ:priceVAT>0</typ:priceVAT>
+          </int:homeCurrency>
+          <int:note>25CPT003</int:note>
+        </int:intDocItem>
+      </int:intDocDetail>
+    </int:intDoc>
+  </dat:dataPackItem>
+</dat:dataPack>

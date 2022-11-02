@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0"
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+              note="Import FA" application="StwTest" ico="12345678" id="fa001">
+  <dat:dataPackItem version="2.0" id="AD001">
+    <!-- faktura bez polozky a bez adresy -->
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:date>2014-10-14</inv:date>
+        <inv:accounting>
+          <typ:ids>3Fv</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:classificationVATType>inland</typ:classificationVATType>
+        </inv:classificationVAT>
+        <inv:text>Faktura za zboží bez adresy</inv:text>
+        <inv:paymentType>
+          <typ:paymentType>draft</typ:paymentType>
+        </inv:paymentType>
+        <inv:account>
+          <typ:ids>KB</typ:ids>
+        </inv:account>
+        <inv:note>Import XML.</inv:note>
+        <inv:intNote>Tento doklad byl vytvořen importem přes XML.</inv:intNote>
+      </inv:invoiceHeader>
+      <inv:invoiceSummary>
+        <inv:roundingDocument>math2one</inv:roundingDocument>
+        <inv:homeCurrency>
+          <typ:priceNone>3018</typ:priceNone>
+          <typ:priceLow>60000</typ:priceLow>
+          <typ:priceHighSum>557</typ:priceHighSum>
+          <typ:round>
+            <typ:priceRound>0</typ:priceRound>
+          </typ:round>
+        </inv:homeCurrency>
+      </inv:invoiceSummary>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

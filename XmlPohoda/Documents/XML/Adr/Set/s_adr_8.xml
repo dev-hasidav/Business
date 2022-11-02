@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="ad004" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Aktualizační import adresy, nastavení GDPR" version="2.0" application="StwTest" ico="12345678">
+  <dat:dataPackItem id="AD001" version="2.0">
+    <adb:addressbook version="2.0">
+      <adb:actionType>
+        <!--aktualizacni import Adresy-->
+        <adb:update>
+          <!--filtr pro vyhledani zaznamu-->
+          <ftr:filter>
+            <ftr:company>STORMWARE s.r.o.</ftr:company>
+          </ftr:filter>
+        </adb:update>
+      </adb:actionType>
+      <!--Pro aktualizaci zaznamu zadavame pouze parametry, ktere budeme menit. Ostastni zaznamy zustanou nezmeneny-->
+      <adb:addressbookHeader>
+        <adb:note>XML komunikace, aktualizace údajů na záložce GDPR</adb:note>
+      </adb:addressbookHeader>
+      <!--nastavení důvodů zpracování dat GDPR-->
+      <adb:addressbookGDPR>
+        <adb:GDPRItems>
+          <adb:GDPRItem>
+            <adb:name>
+              <typ:ids>Zasílání obchodních sdělení</typ:ids>
+            </adb:name>
+            <adb:dateFrom>2018-05-01</adb:dateFrom>
+            <adb:note>Souhlas s evidencí údajů.</adb:note>
+          </adb:GDPRItem>
+        </adb:GDPRItems>
+      </adb:addressbookGDPR>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

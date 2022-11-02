@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              note="Import faktury XML, položka ruční odpočet zálohy" application="Pohoda" ico="12345678" id="Usr01">
+  <dat:dataPackItem version="2.0" id="Usr01 (001)">
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:symVar>1111</inv:symVar>
+        <inv:date>2014-04-25</inv:date>
+        <inv:accounting>
+          <typ:ids>3Fv</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:ids>UD</typ:ids>
+        </inv:classificationVAT>
+        <inv:text>Faktura XML, ruční odpočet zálohy.</inv:text>
+      </inv:invoiceHeader>
+      <inv:invoiceDetail>
+        <!--Skladová položka-->
+        <inv:invoiceItem>
+          <inv:text>Židle Z220</inv:text>
+          <inv:quantity>1.0</inv:quantity>
+          <inv:unit>ks</inv:unit>
+          <inv:payVAT>false</inv:payVAT>
+          <inv:rateVAT>high</inv:rateVAT>
+          <inv:homeCurrency>
+            <typ:unitPrice>1968</typ:unitPrice>
+            <typ:price>1968</typ:price>
+            <typ:priceVAT>413.28</typ:priceVAT>
+            <typ:priceSum>2381.28</typ:priceSum>
+          </inv:homeCurrency>
+          <inv:code>Z220</inv:code>
+          <inv:stockItem>
+            <typ:stockItem>
+              <typ:ids>Z220</typ:ids>
+            </typ:stockItem>
+          </inv:stockItem>
+        </inv:invoiceItem>
+        <!--Položka pro "Ruční odpočet zálohy"-->
+        <inv:invoiceAdvancePaymentItem>
+          <inv:quantity>1.0</inv:quantity>
+          <inv:payVAT>false</inv:payVAT>
+          <inv:rateVAT>none</inv:rateVAT>
+          <inv:homeCurrency>
+            <typ:unitPrice>-1000</typ:unitPrice>
+            <typ:price>-1000</typ:price>
+            <typ:priceVAT>0</typ:priceVAT>
+            <typ:priceSum>-1000</typ:priceSum>
+          </inv:homeCurrency>
+        </inv:invoiceAdvancePaymentItem>
+      </inv:invoiceDetail>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

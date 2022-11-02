@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              note="Import faktury XML, položka odpočet zálohy" application="Pohoda" ico="12345678" id="Usr01">
+  <dat:dataPackItem version="2.0" id="Usr01 (001)">
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:symVar>1111</inv:symVar>
+        <inv:date>2015-10-28</inv:date>
+        <inv:accounting>
+          <typ:ids>3Fv</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:ids>UD</typ:ids>
+        </inv:classificationVAT>
+        <inv:account>
+          <typ:ids>KB</typ:ids>
+        </inv:account>
+        <inv:text>Faktura XML, odpočet zálohy s vazbou na zálohovou fakturu.</inv:text>
+      </inv:invoiceHeader>
+      <inv:invoiceDetail>
+        
+        
+        <!--Skladová položka-->
+        <inv:invoiceItem>
+          <inv:text>Stůl jídelní - rozkládací</inv:text>
+          <inv:quantity>1.0</inv:quantity>
+          <inv:unit>ks</inv:unit>
+          <inv:payVAT>false</inv:payVAT>
+          <inv:rateVAT>high</inv:rateVAT>
+          <inv:homeCurrency>
+            <typ:unitPrice>3000</typ:unitPrice>
+            <typ:price>3000</typ:price>
+            <typ:priceVAT>630</typ:priceVAT>
+          </inv:homeCurrency>
+          <inv:code>Jídel</inv:code>
+          <inv:stockItem>
+            <typ:stockItem>
+              <typ:ids>Jídel</typ:ids>
+            </typ:stockItem>
+          </inv:stockItem>
+        </inv:invoiceItem>
+        
+        
+        <!--Položka pro definice položky dokladu typu "Odpočet zálohy"/"Ruční odpočet zálohy".-->
+        <inv:invoiceAdvancePaymentItem>
+          <!--Pokud není tento element uveden, nastaví se ruční odpočet zálohy.-->
+          <inv:sourceDocument>
+            <typ:number>150800001</typ:number>
+          </inv:sourceDocument>
+          <inv:quantity>1</inv:quantity>
+          <inv:payVAT>false</inv:payVAT>
+          <inv:rateVAT>none</inv:rateVAT>
+          <inv:homeCurrency>
+            <typ:unitPrice>-3000</typ:unitPrice>
+            <typ:price>-3000</typ:price>
+            <typ:priceVAT>0</typ:priceVAT>
+            <typ:priceSum>-3000</typ:priceSum>
+          </inv:homeCurrency>
+        </inv:invoiceAdvancePaymentItem>
+        
+        
+      </inv:invoiceDetail>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dat:dataPack  version="2.0"
+			xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd"
+      xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd"
+			xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd"
+			xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+      xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+      note="Import FA" application="StwTest" ico="28890060" id="102">
+  <dat:dataPackItem version="2.0" id="103">
+    <!--конверктирование FV в FP другую базу 12345678 -->
+    <inv:invoice version="2.0">
+      <inv:links>
+        <typ:link>
+          <typ:sourceDocument>
+            <!-- Cislo FV -->
+            <typ:number>180100108</typ:number>
+          </typ:sourceDocument>
+          <typ:sourceAgenda>issuedInvoice</typ:sourceAgenda>
+        </typ:link>
+      </inv:links>
+      <inv:invoiceHeader>
+        <inv:invoiceType>receivedInvoice</inv:invoiceType>
+        <inv:number>
+          <typ:ids>1811</typ:ids>
+        </inv:number>
+        <inv:date>2018-06-13</inv:date>
+        <inv:symVar>180100107</inv:symVar>
+        <inv:partnerIdentity>
+          <typ:extId>
+            <typ:ids>e55c8f8f-5833-4c82-b6d0-6011b260bba1</typ:ids>
+            <typ:exSystemName>mPOHODA</typ:exSystemName>
+          </typ:extId>
+        </inv:partnerIdentity>
+        <inv:accounting>
+          <typ:ids>1Fp</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:ids>PD</typ:ids>
+        </inv:classificationVAT>
+        <inv:paymentType>
+          <typ:ids>EUR</typ:ids>
+        </inv:paymentType>
+        <inv:account>
+          <typ:ids>KB</typ:ids>
+        </inv:account>
+        <inv:text>--- FV -- FP  G ( 180100107) - N -</inv:text>
+      </inv:invoiceHeader>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

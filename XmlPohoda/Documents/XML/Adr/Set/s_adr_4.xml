@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack id="ad004" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" note="Import adres" version="2.0" application="StwTest" ico="12345678">
+  <dat:dataPackItem id="AD001" version="2.0">
+    <adb:addressbook version="2.0">
+      <adb:actionType>
+        <!--aktualizacni import Adresy-->
+        <adb:update>
+          <!--filtr pro vyhledani zaznamu-->
+          <ftr:filter>
+            <ftr:company>STORMWARE s.r.o.</ftr:company>
+          </ftr:filter>
+        </adb:update>
+      </adb:actionType>
+      <!--Pro aktualizaci zaznamu zadavame pouze parametry, ktere budeme menit. Ostastni zaznamy zustanou nezmeneny-->
+      <adb:addressbookHeader>
+        <adb:identity>
+          <typ:address>
+            <typ:city>Hradec Králové</typ:city>
+            <typ:street>Jiráskova 126</typ:street>
+            <typ:zip>50311</typ:zip>
+          </typ:address>
+        </adb:identity>
+        <adb:note>Načteno z XML, aktualizace údajů</adb:note>
+      </adb:addressbookHeader>
+    </adb:addressbook>
+  </dat:dataPackItem>
+</dat:dataPack>

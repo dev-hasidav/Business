@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              note="Import FA" application="StwTest" ico="12345678" id="fa003">
+  <dat:dataPackItem version="2.0" id="CM001">
+    <!-- faktura v cizi mene bez polozek-->
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:date>2014-10-14</inv:date>
+        <inv:dateTax>2014-10-14</inv:dateTax>
+        <inv:dateAccounting>2014-10-14</inv:dateAccounting>
+        <inv:dateDue>2014-10-21</inv:dateDue>
+        <inv:accounting>
+          <typ:ids>3Fv</typ:ids>
+        </inv:accounting>
+        <inv:classificationVAT>
+          <typ:classificationVATType>inland</typ:classificationVATType>
+        </inv:classificationVAT>
+        <inv:text>Faktura v cizí měně</inv:text>
+        <inv:paymentType>
+          <typ:paymentType>draft</typ:paymentType>
+        </inv:paymentType>
+        <inv:account>
+          <typ:ids>KB</typ:ids>
+        </inv:account>
+        <inv:note>Načteno z XML</inv:note>
+        <inv:intNote>Faktura v cizí měně bez položek</inv:intNote>
+      </inv:invoiceHeader>
+      <inv:invoiceSummary>
+        <inv:roundingVAT>noneEveryRate</inv:roundingVAT>
+        <inv:foreignCurrency>
+          <typ:currency>
+            <typ:ids>EUR</typ:ids>
+          </typ:currency>
+          <typ:rate>21.232</typ:rate>
+          <typ:amount>1</typ:amount>
+          <typ:priceSum>580</typ:priceSum>
+        </inv:foreignCurrency>
+      </inv:invoiceSummary>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>

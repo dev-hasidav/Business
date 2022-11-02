@@ -1,0 +1,35 @@
+use [StwPh_25122304_2020]
+SELECT  * FROM sCMeny ORDER BY Kod
+
+--use [StwPh_28447816_2020]
+--SELECT  * FROM  sCMeny ORDER BY Kod
+
+--use [StwPh_28890060_2020]
+--SELECT  * FROM  sCMeny ORDER BY Kod
+
+--use [StwPh_28910419_2020]
+--SELECT  * FROM  sCMeny ORDER BY Kod
+
+use [StwPh_00000010_2020]
+--DELETE FROM sCMeny where id <> 103
+SELECT  * FROM  sCMeny ORDER BY Kod
+
+--use [StwPh_00000011_2020]
+--DELETE FROM sCMeny
+--SELECT  * FROM  sCMeny ORDER BY Kod
+
+--use [StwPh_00000012_2020]
+--DELETE FROM sCMeny
+--SELECT  * FROM  sCMeny ORDER BY Kod
+
+--use [StwPh_00000013_2020]
+--DELETE FROM sCMeny
+--SELECT  * FROM  sCMeny ORDER BY Kod
+
+--use [StwPh_00000014_2020]
+--DELETE FROM sCMeny
+--SELECT  * FROM  sCMeny ORDER BY Kod
+
+--use [StwPh_00000015_2020]
+--DELETE FROM sCMeny
+--SELECT  * FROM  sCMeny ORDER BY Kod

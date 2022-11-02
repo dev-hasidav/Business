@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6267CD9-0118-41A6-80B4-E0DF21D97807}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Business</RootNamespace>
+    <AssemblyName>Bsnsrvsync1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JsonRpc.CoreCLR.Client, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\JsonRpc.CoreCLR.Client.1.0.1\lib\netstandard1.1\JsonRpc.CoreCLR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Bcl.HashCode.1.1.1\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=6.0.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Npgsql.6.0.7\lib\netstandard2.0\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="OdooRpc.CoreCLR.Client, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\OdooRpc.CoreCLR.Client.V2.2.0.0\lib\netstandard2.0\OdooRpc.CoreCLR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Collections.Immutable.6.0.0\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Diagnostics.DiagnosticSource.6.0.0\lib\net461\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.6, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Text.Json.6.0.6\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Threading.Channels.6.0.0\lib\net461\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atributes\NumClass.cs" />
+    <Compile Include="Atributes\NumError.cs" />
+    <Compile Include="Atributes\NumFunction.cs" />
+    <Compile Include="Cryptography\Crypto.cs" />
+    <Compile Include="Delegates\Colldelegates.cs" />
+    <Compile Include="Elements\Timers\TimerTrigger.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Elements\Timers\TimerTrigger.Designer.cs">
+      <DependentUpon>TimerTrigger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Timers\Timer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Elements\Timers\Timer.designer.cs">
+      <DependentUpon>Timer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enums\Action.cs" />
+    <Compile Include="Enums\NumberRecord.cs" />
+    <Compile Include="Enums\Period.cs" />
+    <Compile Include="Enums\StatusDoc.cs" />
+    <Compile Include="Enums\StatusMessage.cs" />
+    <Compile Include="Enums\StTriggers.cs" />
+    <Compile Include="Enums\TimeRange.cs" />
+    <Compile Include="Enums\TypeServers.cs" />
+    <Compile Include="Enums\TypeTask.cs" />
+    <Compile Include="Funcs\Conver.cs" />
+    <Compile Include="Funcs\ConvertStringToInt.cs" />
+    <Compile Include="Funcs\Enums.cs" />
+    <Compile Include="Funcs\OdooScripts.cs" />
+    <Compile Include="Funcs\SqlScripts.cs" />
+    <Compile Include="Funcs\StaticProperty.cs" />
+    <Compile Include="Interfases\IActionStart.cs" />
+    <Compile Include="Interfases\IConnectMainSync.cs" />
+    <Compile Include="Interfases\IConnectMainSyncAgent.cs" />
+    <Compile Include="Interfases\IModelTable.cs" />
+    <Compile Include="Models\Data\InfoBaseOdoo.cs" />
+    <Compile Include="Models\Data\InfoBasePohoda.cs" />
+    <Compile Include="Models\Data\InfoOdoo.cs" />
+    <Compile Include="Models\Data\InfoPohoda.cs" />
+    <Compile Include="Models\Data\InfoPostgre.cs" />
+    <Compile Include="Models\Data\InfoRem.cs" />
+    <Compile Include="Models\Data\Servers.cs" />
+    <Compile Include="Models\List12.cs" />
+    <Compile Include="Models\ListTrigger.cs" />
+    <Compile Include="Models\Messages\LogMessage.cs" />
+    <Compile Include="Models\Messages\LogWrite.cs" />
+    <Compile Include="Models\Messages\UserLog.cs" />
+    <Compile Include="Models\PlansDates.cs" />
+    <Compile Include="Models\ResponseResult.cs" />
+    <Compile Include="Models\RetTriggers.cs" />
+    <Compile Include="Models\ScheduleReturn.cs" />
+    <Compile Include="Models\Tables\Bank.cs" />
+    <Compile Include="Models\Tables\Celkem.cs" />
+    <Compile Include="Models\Tables\Cinnost.cs" />
+    <Compile Include="Models\Tables\Cislo.cs" />
+    <Compile Include="Models\Tables\Company.cs" />
+    <Compile Include="Models\Tables\Country.cs" />
+    <Compile Include="Models\Tables\Currency.cs" />
+    <Compile Include="Models\Tables\Factura.cs" />
+    <Compile Include="Models\Tables\FormUhrada.cs" />
+    <Compile Include="Models\Tables\Objednalky.cs" />
+    <Compile Include="Models\Tables\Partner.cs" />
+    <Compile Include="Models\Tables\PartnerBank.cs" />
+    <Compile Include="Models\Tables\Predkontatia.cs" />
+    <Compile Include="Models\Tables\Product.cs" />
+    <Compile Include="Models\Tables\ProductCategory.cs" />
+    <Compile Include="Models\Tables\ProductTemplate.cs" />
+    <Compile Include="Models\Tables\StatusZakazka.cs" />
+    <Compile Include="Models\Tables\Stredisko.cs" />
+    <Compile Include="Models\Tables\Uom.cs" />
+    <Compile Include="Models\Tables\UomCategory.cs" />
+    <Compile Include="Models\Tables\User.cs" />
+    <Compile Include="Models\Tables\Zakazka.cs" />
+    <Compile Include="Models\Tables\ZakazkaPlanning.cs" />
+    <Compile Include="Models\Tasks\ActionAll.cs" />
+    <Compile Include="Models\Tasks\ActionProperty.cs" />
+    <Compile Include="Models\Tasks\SQLTriggers.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskBank.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskCompany.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskCountry.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskCurrency.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskObjednalky.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskPartner.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskUser.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTaskZakazka.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTriggerFvToFp.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ActionTriggerTest.cs" />
+    <Compile Include="Models\Tasks\TaskAction\ParamActior.cs" />
+    <Compile Include="Models\Tasks\TaskFunction.cs" />
+    <Compile Include="Models\Tasks\TaskProperty.cs" />
+    <Compile Include="Models\Tasks\TasksLog.cs" />
+    <Compile Include="Models\TrigersProp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup\FileEventLog.cs" />
+    <Compile Include="Models\Data\InfoSql.cs" />
+    <Compile Include="Setup\ListenerByte.cs" />
+    <Compile Include="Setup\RemAssecc.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Elements\Timers\TimerTrigger.resx">
+      <DependentUpon>TimerTrigger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elements\Timers\Timer.resx">
+      <DependentUpon>Timer.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\XmlPohoda\XmlPohoda.csproj">
+      <Project>{26478bc3-929d-4f60-8565-ec0a7786cc13}</Project>
+      <Name>XmlPohoda</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\packages\System.Text.Json.6.0.6\build\System.Text.Json.targets" Condition="Exists('..\..\packages\System.Text.Json.6.0.6\build\System.Text.Json.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\System.Text.Json.6.0.6\build\System.Text.Json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\System.Text.Json.6.0.6\build\System.Text.Json.targets'))" />
+  </Target>
+</Project>

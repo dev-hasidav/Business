@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="Windows-1250"?>
+<rsp:responsePack version="2.0" id="dp-160420101618+02:00" state="ok" programVersion="12407.2 SQL (17.3.2020)" ico="28929748" key="07bd7ee7-8446-4e0b-9def-86eca5bba9e7" note="Note QuerySrv" xmlns:rsp="http://www.stormware.cz/schema/version_2/response.xsd" xmlns:rdc="http://www.stormware.cz/schema/version_2/documentresponse.xsd" xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" xmlns:lStk="http://www.stormware.cz/schema/version_2/list_stock.xsd" xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" xmlns:lCen="http://www.stormware.cz/schema/version_2/list_centre.xsd" xmlns:lAcv="http://www.stormware.cz/schema/version_2/list_activity.xsd" xmlns:acu="http://www.stormware.cz/schema/version_2/accountingunit.xsd" xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" xmlns:vch="http://www.stormware.cz/schema/version_2/voucher.xsd" xmlns:int="http://www.stormware.cz/schema/version_2/intDoc.xsd" xmlns:stk="http://www.stormware.cz/schema/version_2/stock.xsd" xmlns:ord="http://www.stormware.cz/schema/version_2/order.xsd" xmlns:ofr="http://www.stormware.cz/schema/version_2/offer.xsd" xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd" xmlns:vyd="http://www.stormware.cz/schema/version_2/vydejka.xsd" xmlns:pri="http://www.stormware.cz/schema/version_2/prijemka.xsd" xmlns:bal="http://www.stormware.cz/schema/version_2/balance.xsd" xmlns:pre="http://www.stormware.cz/schema/version_2/prevodka.xsd" xmlns:vyr="http://www.stormware.cz/schema/version_2/vyroba.xsd" xmlns:pro="http://www.stormware.cz/schema/version_2/prodejka.xsd" xmlns:con="http://www.stormware.cz/schema/version_2/contract.xsd" xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd" xmlns:prm="http://www.stormware.cz/schema/version_2/parameter.xsd" xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd" xmlns:ctg="http://www.stormware.cz/schema/version_2/category.xsd" xmlns:ipm="http://www.stormware.cz/schema/version_2/intParam.xsd" xmlns:str="http://www.stormware.cz/schema/version_2/storage.xsd" xmlns:idp="http://www.stormware.cz/schema/version_2/individualPrice.xsd" xmlns:sup="http://www.stormware.cz/schema/version_2/supplier.xsd" xmlns:prn="http://www.stormware.cz/schema/version_2/print.xsd" xmlns:sEET="http://www.stormware.cz/schema/version_2/sendEET.xsd" xmlns:act="http://www.stormware.cz/schema/version_2/accountancy.xsd" xmlns:bnk="http://www.stormware.cz/schema/version_2/bank.xsd" xmlns:sto="http://www.stormware.cz/schema/version_2/store.xsd" xmlns:grs="http://www.stormware.cz/schema/version_2/groupStocks.xsd" xmlns:acp="http://www.stormware.cz/schema/version_2/actionPrice.xsd" xmlns:csh="http://www.stormware.cz/schema/version_2/cashRegister.xsd" xmlns:bka="http://www.stormware.cz/schema/version_2/bankAccount.xsd" xmlns:ilt="http://www.stormware.cz/schema/version_2/inventoryLists.xsd" xmlns:nms="http://www.stormware.cz/schema/version_2/numericalSeries.xsd" xmlns:pay="http://www.stormware.cz/schema/version_2/payment.xsd" xmlns:mKasa="http://www.stormware.cz/schema/version_2/mKasa.xsd" xmlns:gdp="http://www.stormware.cz/schema/version_2/GDPR.xsd" xmlns:est="http://www.stormware.cz/schema/version_2/establishment.xsd" xmlns:cen="http://www.stormware.cz/schema/version_2/centre.xsd" xmlns:acv="http://www.stormware.cz/schema/version_2/activity.xsd" xmlns:afp="http://www.stormware.cz/schema/version_2/accountingFormOfPayment.xsd" xmlns:vat="http://www.stormware.cz/schema/version_2/classificationVAT.xsd" xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" xmlns:asv="http://www.stormware.cz/schema/version_2/accountingSalesVouchers.xsd">
+  <rsp:responsePackItem version="2.0" id="dpi-160420101618+02:00" state="ok">
+    <lCon:listContract version="2.0" dateTimeStamp="2020-04-16T10:16:39" dateValidFrom="2020-04-16" state="ok">
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>13</con:id>
+          <con:number>
+            <typ:numberRequested>16Zak00001</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2016-01-01</con:datePlanStart>
+          <con:datePlanDelivery>2016-01-02</con:datePlanDelivery>
+          <con:dateStart>2016-01-03</con:dateStart>
+          <con:dateDelivery>2016-01-04</con:dateDelivery>
+          <con:dateWarranty>2016-01-05</con:dateWarranty>
+          <con:text>BAM_ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>116</typ:id>
+            <typ:address>
+              <typ:company>B A M Group s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Krásova 802/25</typ:street>
+              <typ:zip>130 00</typ:zip>
+              <typ:ico>29058309</typ:ico>
+              <typ:dic>CZ29058309</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>planned</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>true</con:markRecord>
+          <con:labels>
+            <typ:label>
+              <typ:id>labes-013</typ:id>
+              <typ:ids>#0 Neznámý</typ:ids>
+            </typ:label>
+          </con:labels>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>14</con:id>
+          <con:number>
+            <typ:numberRequested>ADM</typ:numberRequested>
+          </con:number>
+          <con:dateStart>2018-01-01</con:dateStart>
+          <con:text>GAZDA ltd Administrativno prace/ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>139</typ:id>
+            <typ:address>
+              <typ:company>GAZDA ltd</typ:company>
+              <typ:name>Ilya Zelmanov</typ:name>
+              <typ:city>Larnaca</typ:city>
+              <typ:street>Amorgou 4, Pyla</typ:street>
+              <typ:zip>7080</typ:zip>
+              <typ:ico>HO256620</typ:ico>
+              <typ:dic>10356620M</typ:dic>
+              <typ:country>
+                <typ:id>114</typ:id>
+                <typ:ids>CY</typ:ids>
+              </typ:country>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:name></typ:name>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>16</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00001</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>EDELVEIS AN - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>121</typ:id>
+            <typ:address>
+              <typ:company>EDELVEIS AN spol. s r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Domanovická 2480</typ:street>
+              <typ:zip>190 16</typ:zip>
+              <typ:ico>28447816</typ:ico>
+              <typ:dic>CZ28447816</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>delivered</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>17</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00002</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>Gazda GOLD - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>56</typ:id>
+            <typ:address>
+              <typ:company>Gazda GOLD, spol. s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Kytlická 755/13</typ:street>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28890060</typ:ico>
+              <typ:dic>CZ28890060</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>closed</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>18</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00003</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>GAZDA Develop - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>118</typ:id>
+            <typ:address>
+              <typ:company>GAZDA Develop s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Domanovická 2480</typ:street>
+              <typ:zip>190 16</typ:zip>
+              <typ:ico>28910419</typ:ico>
+              <typ:dic>CZ28910419</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState></con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>19</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00004</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>NIKAS INVEST DRUŽSTVO - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>117</typ:id>
+            <typ:address>
+              <typ:company>NIKAS INVEST DRUŽSTVO</typ:company>
+              <typ:name>Yuriy Hozda</typ:name>
+              <typ:city>Praha 9</typ:city>
+              <typ:street>Jandova 10/3</typ:street>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28164687</typ:ico>
+              <typ:dic>CZ28164687</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:name></typ:name>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>20</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00005</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>OLAM-KESEF - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>114</typ:id>
+            <typ:address>
+              <typ:company>OLAM-KESEF s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Místecká 449</typ:street>
+              <typ:zip>199 00</typ:zip>
+              <typ:ico>25122304</typ:ico>
+              <typ:dic>CZ25122304</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>21</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00006</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>ZMAN - KABALA - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>129</typ:id>
+            <typ:address>
+              <typ:company>ZMAN - KABALA s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>U milosrdných 849/6</typ:street>
+              <typ:zip>110 00</typ:zip>
+              <typ:ico>27068404</typ:ico>
+              <typ:dic>CZ27068404</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>22</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00007</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>Ki - TOV CZ  - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>155</typ:id>
+            <typ:address>
+              <typ:company>Ki - TOV CZ s.r.o.</typ:company>
+              <typ:city>Praha</typ:city>
+              <typ:street>Novákových 970/41</typ:street>
+              <typ:zip>180 00</typ:zip>
+              <typ:ico>24154989</typ:ico>
+              <typ:dic>CZ24154989</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>23</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00008</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:text>GAZDA PLUS   - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>76</typ:id>
+            <typ:address>
+              <typ:company>GAZDA PLUS s.r.o.</typ:company>
+              <typ:city>Praha 9</typ:city>
+              <typ:street>K Žižkovu 381/1</typ:street>
+              <typ:zip>190 00</typ:zip>
+              <typ:ico>28451449</typ:ico>
+              <typ:dic>CZ28451449</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company></typ:company>
+              <typ:city></typ:city>
+              <typ:street></typ:street>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:markRecord>false</con:markRecord>
+        </con:contractDesc>
+      </lCon:contract>
+      <lCon:contract version="2.0">
+        <con:contractDesc>
+          <con:id>24</con:id>
+          <con:number>
+            <typ:id>474</typ:id>
+            <typ:ids>18Zak</typ:ids>
+            <typ:numberRequested>18Zak00009</typ:numberRequested>
+          </con:number>
+          <con:datePlanStart>2018-01-01</con:datePlanStart>
+          <con:datePlanDelivery>2016-01-02</con:datePlanDelivery>
+          <con:dateStart>2016-01-03</con:dateStart>
+          <con:dateDelivery>2016-01-04</con:dateDelivery>
+          <con:dateWarranty>2016-01-05</con:dateWarranty>
+          <con:text>W - VITA   - ucetnictvi</con:text>
+          <con:partnerIdentity>
+            <typ:id>84</typ:id>
+            <typ:address>
+              <typ:company>W - VITA s.r.o.</typ:company>
+              <typ:name>Jmeno-024</typ:name>
+              <typ:city>Rícany</typ:city>
+              <typ:street>Skalní 61</typ:street>
+              <typ:zip>251 01</typ:zip>
+              <typ:ico>26775603</typ:ico>
+              <typ:dic>CZ26775603</typ:dic>
+            </typ:address>
+            <typ:shipToAddress>
+              <typ:company>W - VITA s.r.o.</typ:company>
+              <typ:city>Rícany</typ:city>
+              <typ:street>Skalní 61</typ:street>
+              <typ:zip>251 01</typ:zip>
+            </typ:shipToAddress>
+          </con:partnerIdentity>
+          <con:responsiblePerson>
+            <typ:id>1</typ:id>
+            <typ:ids>Shestak Adriana</typ:ids>
+          </con:responsiblePerson>
+          <con:contractState>opened</con:contractState>
+          <con:ost1>7 %</con:ost1>
+          <con:ost2>ost-024</con:ost2>
+          <con:note>pozn-024</con:note>
+          <con:markRecord>false</con:markRecord>
+          <con:labels>
+            <typ:label>
+              <typ:id>labes-024</typ:id>
+              <typ:ids>#0 Neznámý</typ:ids>
+            </typ:label>
+          </con:labels>
+        </con:contractDesc>
+      </lCon:contract>
+    </lCon:listContract>
+  </rsp:responsePackItem>
+</rsp:responsePack>

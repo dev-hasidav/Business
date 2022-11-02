@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<dat:dataPack id="001" version="2.0"
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+              xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd"
+              xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd"
+	            xmlns:lCon="http://www.stormware.cz/schema/version_2/list_contract.xsd"
+              xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+        note="Požadavek na export pokladních dokladů" application="StwTest" ico="000000000">
+  <!--   FA   -->
+  <dat:dataPackItem version="2.0" id="fa-001">
+    <lst:listInvoiceRequest version="2.0" invoiceVersion="2.0" invoiceType="issuedInvoice">
+      <lst:requestInvoice>
+        <ftr:filter>
+        </ftr:filter>
+      </lst:requestInvoice>
+    </lst:listInvoiceRequest>
+  </dat:dataPackItem>
+  <!-- HO  -->
+  <dat:dataPackItem version="2.0" id="ho-001">
+    <lst:listVoucherRequest version="2.0" voucherVersion="2.0">
+      <lst:requestVoucher>
+        <ftr:filter>
+        </ftr:filter>
+      </lst:requestVoucher>
+    </lst:listVoucherRequest>
+  </dat:dataPackItem>
+  <!--   BV   -->
+  <dat:dataPackItem version="2.0" id="bv-001">
+    <lst:listBankRequest version="2.0" bankVersion="2.0">
+      <lst:requestBank>
+      </lst:requestBank>
+    </lst:listBankRequest>
+  </dat:dataPackItem>
+  <!--   Zakazky   -->
+  <dat:dataPackItem version="2.0" id="zk-001">
+    <lCon:listContractRequest version="2.0" contractVersion="2.0">
+      <lCon:requestContract>
+        <ftr:filter>
+        </ftr:filter>
+      </lCon:requestContract>
+    </lCon:listContractRequest>
+  </dat:dataPackItem>
+    <!--   ad   -->
+  <dat:dataPackItem version="2.0" id="ad-001">
+    <lAdb:listAddressBookRequest version="2.0" addressBookVersion="2.0">
+      <lAdb:requestAddressBook>
+        <ftr:filter>
+        </ftr:filter>
+      </lAdb:requestAddressBook>
+    </lAdb:listAddressBookRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

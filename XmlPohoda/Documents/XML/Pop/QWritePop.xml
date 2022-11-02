@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              note="Import poptávky" application="StwTest" ico="12345678" id="po001" 
+              xmlns:enq="http://www.stormware.cz/schema/version_2/enquiry.xsd">
+<dat:dataPackItem version="2.0" id="POP001">
+    <!-- Import poptávky se skladovou položkou -->
+    <enq:enquiry version="2.0">
+      <enq:enquiryHeader>
+        <enq:date>2018-10-14</enq:date>
+        <enq:text>Poptávka na zboží</enq:text>
+        <!--vazby na adresu z programu POHODA-->
+        <enq:partnerIdentity>
+          <typ:id>25</typ:id>
+        </enq:partnerIdentity>
+        <enq:note>Načteno z XML.</enq:note>
+        <enq:intNote>Import Poptávky s položkami.</enq:intNote>
+      </enq:enquiryHeader>
+      <enq:enquiryDetail>
+        <!--textova polozka-->
+        <enq:enquiryItem>
+          <enq:text>Sestava PC</enq:text>
+          <enq:quantity>1</enq:quantity>
+          <enq:rateVAT>high</enq:rateVAT>
+          <enq:homeCurrency>
+            <typ:unitPrice>198</typ:unitPrice>
+          </enq:homeCurrency>
+        </enq:enquiryItem>
+        <!--skladova polozka-->
+        <enq:enquiryItem>
+          <enq:text>Stůl montovaný</enq:text>
+          <enq:quantity>1</enq:quantity>
+          <enq:rateVAT>high</enq:rateVAT>
+          <enq:homeCurrency>
+            <typ:unitPrice>198</typ:unitPrice>
+          </enq:homeCurrency>
+          <enq:stockItem>
+           <typ:stockItem>
+              <typ:ids>STM</typ:ids>
+            </typ:stockItem>
+          </enq:stockItem>
+        </enq:enquiryItem>
+      </enq:enquiryDetail>
+     -<enq:enquirySummary>
+        <enq:roundingDocument>math2one</enq:roundingDocument>
+      </enq:enquirySummary>
+    </enq:enquiry>
+  </dat:dataPackItem>
+</dat:dataPack>

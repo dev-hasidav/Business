@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dat:dataPack
+  xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd"
+  xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd"
+  xmlns:adb="http://www.stormware.cz/schema/version_2/addressbook.xsd"
+  xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd"
+  xmlns:lAdb="http://www.stormware.cz/schema/version_2/list_addBook.xsd"
+  note="Import adres" version="2.0" application="StwTest" ico="28890060" id="ad004">
+  <dat:dataPackItem version="2.0" id="AD001">
+    <lAdb:listAddressBookRequest version="2.0" addressBookVersion="2.0">
+      <lAdb:requestAddressBook>
+        <ftr:filter>
+          <ftr:ico>12345678</ftr:ico>
+        </ftr:filter>
+      </lAdb:requestAddressBook>
+    </lAdb:listAddressBookRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

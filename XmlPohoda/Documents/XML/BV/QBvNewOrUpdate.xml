@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<dat:dataPack version="2.0" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:lst="http://www.stormware.cz/schema/version_2/list.xsd" 
+              xmlns:ftr="http://www.stormware.cz/schema/version_2/filter.xsd" 
+              xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              note="Požadavek na export bankovních dokladů" application="StwTest" ico="12345678" id="001">
+  <dat:dataPackItem version="2.0" id="bank_05">
+    <lst:listBankRequest version="2.0" bankVersion="2.0">
+      <lst:requestBank>
+        <ftr:filter>
+          <ftr:lastChanges>2013-05-21T14:30:00</ftr:lastChanges>
+        </ftr:filter>
+      </lst:requestBank>
+    </lst:listBankRequest>
+  </dat:dataPackItem>
+</dat:dataPack>

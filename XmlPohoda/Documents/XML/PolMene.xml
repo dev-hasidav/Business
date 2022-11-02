@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1250" standalone="no"?>
+<dat:dataPack xmlns:dat="http://www.stormware.cz/schema/version_2/data.xsd" 
+              xmlns:typ="http://www.stormware.cz/schema/version_2/type.xsd" 
+              xmlns:inv="http://www.stormware.cz/schema/version_2/invoice.xsd" 
+              version="2.0" note="Create new FV 181300060" application="QuerySrv" ico="28890060" id="Pack1">
+  <dat:dataPackItem version="2.0" id="PackItem1">
+    <inv:invoice version="2.0">
+      <inv:invoiceHeader>
+        <inv:invoiceType>issuedInvoice</inv:invoiceType>
+        <inv:number>
+          <typ:ids>1813</typ:ids>
+        </inv:number>
+        <inv:symVar>181300060</inv:symVar>
+        <inv:date>2018-12-04</inv:date>
+        <inv:classificationVAT>
+          <typ:ids>UD</typ:ids>
+        </inv:classificationVAT>
+        <inv:text>5555 555</inv:text>
+        <inv:partnerIdentity>
+          <typ:id>257</typ:id>
+        </inv:partnerIdentity>
+        <inv:account>
+          <typ:accountNo>228803715</typ:accountNo>
+          <typ:bankCode>cSOB</typ:bankCode>
+        </inv:account>
+        <inv:contract />
+      </inv:invoiceHeader>
+      <inv:invoiceDetail>
+        <inv:invoiceItem>
+          <inv:quantity>1</inv:quantity>
+          <inv:payVAT>false</inv:payVAT>
+          <inv:rateVAT>none</inv:rateVAT>
+          <inv:foreignCurrency>
+            <typ:unitPrice>1000</typ:unitPrice>
+          </inv:foreignCurrency>
+        </inv:invoiceItem>
+        <inv:invoiceItem>
+          <inv:quantity>2</inv:quantity>
+          <inv:payVAT>false</inv:payVAT>
+          <inv:rateVAT>none</inv:rateVAT>
+          <inv:foreignCurrency>
+            <typ:unitPrice>500</typ:unitPrice>
+          </inv:foreignCurrency>
+        </inv:invoiceItem>
+      </inv:invoiceDetail>
+      <inv:invoiceSummary>
+        <inv:roundingVAT>noneEveryRate</inv:roundingVAT>
+        <inv:foreignCurrency>
+          <typ:currency>
+            <typ:ids>EUR</typ:ids>
+          </typ:currency>
+        </inv:foreignCurrency>
+      </inv:invoiceSummary>
+    </inv:invoice>
+  </dat:dataPackItem>
+</dat:dataPack>
